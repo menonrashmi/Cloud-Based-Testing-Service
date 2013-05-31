@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<div class="g-doc-1024">
+		<div id="hd" class="g-section g-tpl-50-50 g-split" style="background-color: white;">
+		<div class="g-unit g-first">
+		<p>
+		<a href="/" id="ae-logo" class="ae-ir">
+		<span>Google App Engine</span>
+		</a>
+		</p>
+		</div>
+		<div class="g-unit" id="ae-userinfo">
+		<ul>
+		<li>
+		<strong>
+		kteja.nin@gmail.com
+		</strong> |
+		</li>
+		<li>
+		<a href="https://www.google.com/accounts/ManageAccount">My Account</a> |
+		</li>
+		<li>
+		<a href="http://code.google.com/appengine/kb/">Help</a> |
+		</li>
+		<li>
+		<a href="https://appengine.google.com/_ah/logout?continue=https://www.google.com/accounts/Logout%3Fcontinue%3Dhttps://appengine.google.com/_ah/logout%253Fcontinue%253Dhttps://appengine.google.com/start%26service%3Dah">Sign out</a>
+		</li>
+		</ul>
+		</div>
+		</div>
+		<div class="ae-promo">
+		<form method="POST" action="/promo/decline.do">
+		<div class="g-section g-tpl-75-25 g-split">
+		<div class="g-unit g-first">
+		<strong>
+		A comparison of your current bill against the <a href="http://www.google.com/enterprise/cloud/appengine/pricing.html">new pricing model</a> is now available in the Billing History page.
+		</strong>
+		<input name="xsrf-token" value="JH2ska8ZGXdv2rQA9FCLljoxMzE2OTMwMzQwMDIzMDky" type="hidden">
+		<input name="descriptor" value="side_by_side_bills" type="hidden">
+		<input name="continue" value="/dashboard/quotadetails?&amp;app_id=s~app-testing11&amp;version_id=2.353405463423363049" type="hidden">
+		</div>
+		<div class="g-unit">
+		<input id="submit" value="Dismiss" class="goog-button" type="submit">
+		</div>
+		</div>
+		</form>
+		</div>
+		<div id="ae-appbar-lrg">
+		<div class="g-section g-tpl-50-50 g-split">
+		<div class="g-unit g-first">
+		<strong>Application:</strong>
+		app-testing11
+		[High Replication]
+		<form id="ae-appbar-versions" method="get" action="" accept-charset="utf-8">
+		<input style="display: none;" id="ae-appbar-versions-app-id" name="app_id" value="s~app-testing11" type="hidden">
+		<label style="display: none;" for="ae-appbar-version-id">:</label>
+		<select id="ae-appbar-version-id" name="version_id" title="Switch ">
+		<optgroup label="Versions">
+		<option value="1.353403110022833390">
+		1
+		</option>
+		<option value="2.353405463423363049" selected="selected">
+		2
+		</option>
+		</optgroup>
+		<optgroup label="Built-ins">
+		<option value="ah-builtin-python-bundle.352856140049199620">
+		ah-builtin-python-bundle
+		</option>
+		</optgroup>
+		</select>
+		<input style="display: none;" value="Go" class="goog-button" type="submit">
+		</form>
+		</div>
+		<div class="g-unit">
+		<a href="/" class="goog-inline-block">« My Applications</a>
+		</div>
+		</div>
+		</div>
+		<script>
+		ae.Header.init();
+		</script>
+		<div id="bd" class="g-section g-tpl-160">
+		<div id="ae-lhs-nav-c" class="g-unit g-first">
+		<div id="ae-lhs-nav" class="g-c">
+		<div id="ae-nav">
+		<ul>
+		<li id="ae-nav-dashboard">
+		<span class="ae-nav-section">
+		Main
+		</span>
+		<ul>
+		<li>
+		<a href="/dashboard?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Dashboard
+		</a>
+		</li>
+		<li>
+		<a href="/instances?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Instances
+		</a>
+		</li>
+		<li>
+		<a href="/logs?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Logs
+		</a>
+		</li>
+		<li>
+		<a href="/deployment?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Versions
+		</a>
+		</li>
+		<li>
+		<a href="/backends?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Backends
+		</a>
+		</li>
+		<li>
+		<a href="/cron?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Cron Jobs
+		</a>
+		</li>
+		<li>
+		<a href="/queues?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Task Queues
+		</a>
+		</li>
+		<li>
+		<a href="/dashboard/quotadetails?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049" class="ae-nav-selected">
+		Quota Details
+		</a>
+		</li>
+		</ul>
+		</li>
+		<li id="ae-nav-datastore">
+		<span class="ae-nav-section">
+		Data
+		</span>
+		<ul>
+		<li>
+		<a href="/datastore/indexes?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Datastore Indexes
+		</a>
+		</li>
+		<li>
+		<a href="/datastore/explorer?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Datastore Viewer
+		</a>
+		</li>
+		<li>
+		<a href="/datastore/statistics?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Datastore Statistics
+		</a>
+		</li>
+		<li>
+		<a href="/blobstore/explorer?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Blob Viewer
+		</a>
+		</li>
+		<li>
+		<a href="/prospective_search/subscriptions?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Prospective Search
+		</a>
+		</li>
+		<li>
+		<a href="/datastore/admin?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Datastore Admin
+		</a>
+		</li>
+		</ul>
+		</li>
+		<li id="ae-nav-administration">
+		<span class="ae-nav-section">
+		Administration
+		</span>
+		<ul>
+		<li>
+		<a href="/settings?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Application Settings
+		</a>
+		</li>
+		<li>
+		<a href="/permissions?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Permissions
+		</a>
+		</li>
+		<li>
+		<a href="/blacklist?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Blacklist
+		</a>
+		</li>
+		<li>
+		<a href="/adminlogs?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Admin Logs
+		</a>
+		</li>
+		</ul>
+		</li>
+		<li id="ae-nav-billing">
+		<span class="ae-nav-section">
+		Billing
+		</span>
+		<ul>
+		<li>
+		<a href="/billing/settings?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Billing Settings
+		</a>
+		</li>
+		<li>
+		<a href="/billing/history?&amp;app_id=s%7Eapp-testing11&amp;version_id=2.353405463423363049">
+		Billing History
+		</a>
+		</li>
+		</ul>
+		</li>
+		</ul>
+		</div>
+		<div class="ae-nav-group ae-rounded-sml">
+		<h4 class="ae-resources">
+		Resources
+		</h4>
+		<ul id="ae-nav-resources">
+		<li>
+		<a target="_blank" href="http://code.google.com/appengine">Documentation</a>
+		</li>
+		<li>
+		<a target="_blank" href="http://code.google.com/appengine/kb/">FAQ</a>
+		</li>
+		<li>
+		<a target="_blank " href="http://groups.google.com/group/google-appengine">Developer Forum</a>
+		</li>
+		<li>
+		<a target="_blank" href="http://code.google.com/appengine/downloads.html">Downloads</a>
+		</li>
+		<li>
+		<a target="_blank" href="http://code.google.com/status/appengine">System Status</a>
+		</li>
+		</ul>
+		</div>
+		</div>
+		</div>
+		<div id="ae-content" class="g-unit">
+		<div id="ae-dash-quotadetails">
+		<p>
+		The quota details for this application are grouped by API and are listed below.
+		If your application exceeds 50% of any particular quota halfway through the day,
+		it may exceed the quota before the day is over.
+		To learn more about how quotas work, read
+		<a target="_blank" href="http://code.google.com/appengine/docs/quotas.html">
+		Understanding Quotas</a> and
+		<a target="_blank" href="http://code.google.com/appengine/kb/general.html#quota">
+		Why is My App Over Quota?
+		</a>
+		</p>
+		<div id="ae-quota-details">
+		<div id="ae-quota-first-api" class="g-section g-tpl-33-67">
+		<div class="g-unit g-first">
+		<h3>Requests</h3>
+		</div>
+		<div id="ae-quota-refresh-note" class="g-unit">
+		<p>
+		Quotas are reset every 24 hours. Next reset:
+		1 hours
+		</p>
+		</div>
+		</div>
+		<table class="ae-table ae-table-striped ae-quota-requests">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<thead>
+		<th>Resource</th>
+		<th colspan="3">Daily Quota</th>
+		<th>Rate
+		<a href="http://code.google.com/appengine/docs/quotas.html#Per-minute_Quotas" target="_blank"><img class="ae-help-icon" src="/img/help.gif" alt="help" height="14" width="14"></a>
+		</th>
+		</thead>
+		<tbody>
+		<tr>
+		<td>CPU Time</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		6.50
+		CPU hours
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Requests</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		61 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Outgoing Bandwidth</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Incoming Bandwidth</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Secure Requests</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Secure Outgoing Bandwidth</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Secure Incoming Bandwidth</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Backend Usage</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		$0.00 of
+		$0.72
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>Storage</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>Datastore API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Datastore Queries</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Blobstore API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Total Stored Data</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>High Replication Data</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		0.50
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Blobstore Stored Data</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Data Sent to Datastore API</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		Unlimited
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Data Received from Datastore API</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		Unlimited
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Datastore CPU Time</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		Unlimited
+		CPU hours
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Datastore Entity Fetch Ops</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Datastore Entity Put Ops</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Datastore Entity Delete Ops</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Datastore Index Write Ops</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Datastore Query Ops</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Datastore Key Fetch Ops</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Datastore Id Allocation Ops</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Number of Indexes</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		200
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Prospective Search Subscriptions</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		10,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>Mail</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>Mail API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		100
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Recipients Emailed</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		2,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Admins Emailed</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		5,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Message Body Data Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		0.06
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Attachments Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		2,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Attachment Data Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		0.10
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>UrlFetch</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>UrlFetch API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		657,084
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>UrlFetch Data Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		4.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>UrlFetch Data Received</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		4.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>Image Manipulation</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>Image Manipulation API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Data Sent to API</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		Unlimited
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Data Received from API</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		Unlimited
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Transformations executed</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>Memcache</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>Memcache API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		67 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Data Sent to API</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		Unlimited
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Data Received from API</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		Unlimited
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>XMPP</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>XMPP API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		46,310,400
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>XMPP Data Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1,046.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Recipients Messaged</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		46,310,400
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Invitations Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		100,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Stanzas Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		Unlimited
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>Channel</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>Channel API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		46,310,400
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Channels Created</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		8,640
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Channel Data Sent</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0.00 of
+		1,046.00
+		GBytes
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>Task Queue</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>Task Queue API Calls</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		100,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr class="ae-even">
+		<td>Task Queue Stored Task Count</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		1,000,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		<tr>
+		<td>Task Queue Stored Task Bytes</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		104,857,600
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		<h3>Deployments</h3>
+		<table class="ae-table ae-table-striped ">
+		<colgroup>
+		<col class="ae-quota-resource">
+		<col id="ae-dash-quota-bar-col">
+		<col id="ae-dash-quota-percent-col">
+		<col>
+		<col class="ae-quota-safety-limit">
+		</colgroup>
+		<tbody>
+		<tr>
+		<td>Deployments</td>
+		<td>
+		<div class="ae-dash-quota-bar">
+		<img src="/img/pix.gif" class="ae-quota-normal" alt="0%" height="13" width="0">
+		</div>
+		</td>
+		<td>
+		0%
+		</td>
+		<td>
+		<span class="ae-quota-normal-text">
+		0 of
+		1,000
+		</span>
+		</td>
+		<td>
+		Okay
+		</td>
+		</tr>
+		</tbody>
+		</table>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div id="ft">
+		© 2008 Google |
+		<a href="http://code.google.com/appengine/terms.html">Terms of Service</a>
+		| <a href="http://code.google.com/appengine/privacy.html">Privacy Policy</a>
+		| <a href="http://googleappengine.blogspot.com">Blog</a>
+		| <a href="http://groups.google.com/group/google-appengine">Discussion Forums</a>
+		</div>
+		<script>
+		ae.init();
+		</script>
+		</div>
+	</body>
+</html>

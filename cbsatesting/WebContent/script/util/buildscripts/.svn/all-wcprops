@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/LICENSE
+END
+listProfileDeps.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/listProfileDeps.js
+END
+copyright.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/copyright.txt
+END
+clean_release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/clean_release.sh
+END
+mk_branch.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/mk_branch.sh
+END
+cdnBuild.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cdnBuild.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/README
+END
+makeDojoJsWeb.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/makeDojoJsWeb.js
+END
+webbuild.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/webbuild.html
+END
+cdnBuild.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cdnBuild.txt
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/build.bat
+END
+changeVersion.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/changeVersion.js
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/build.sh
+END
+build_release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/build_release.sh
+END
+build.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/build.js
+END
+build_notice.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/build_notice.txt
+END

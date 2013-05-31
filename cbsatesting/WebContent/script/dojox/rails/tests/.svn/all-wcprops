@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/rails/tests
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/rails/tests/module.js
+END
+success_response.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/rails/tests/success_response.html
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/rails/tests/runTests.html
+END
+test_rails.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/rails/tests/test_rails.html
+END

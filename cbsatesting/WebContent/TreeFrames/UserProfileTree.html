@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Untitled</title>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dojo/dojo.xd.js" djConfig="parseOnLoad: true"></script>
+		<script type="text/javascript">
+			dojo.require('dojo.data.ItemFileReadStore');
+			dojo.require('dijit.Tree');
+		</script>
+		
+		<script type="text/javascript" src="UserTree.js"></script>
+		 
+		<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.6/dijit/themes/claro/claro.css" />
+		<link rel="stylesheet" type="text/css" href="/cbsatesting/WebContent/style/main.css" />
+	</head>
+	
+	<body class="claro lotusui" data-davinci-ws="collapse" dvFlowLayout="true" id="myapp">
+		<span dojoType="dojo.data.ItemFileReadStore" id="ItemFileReadStore_1" jsId="ItemFileReadStore_1" data="{&quot;identifier&quot;:&quot;id&quot;,&quot;label&quot;:&quot;label&quot;,&quot;items&quot;:[{&quot;label&quot;:[&quot;Personal Information&quot;],&quot;id&quot;:[826702699065]},{&quot;label&quot;:[&quot;Account Settings&quot;],&quot;id&quot;:[79098003218]},{&quot;label&quot;:[&quot;Privacy&quot;],&quot;id&quot;:[207913810620]},{&quot;label&quot;:[&quot;Users (Administration only)&quot;],&quot;id&quot;:[936725855572]}]}"></span><span dojoType="dijit.tree.ForestStoreModel" id="ForestStoreModel_1" rootLabel="Root" jsId="ForestStoreModel_1" store="ItemFileReadStore_1"></span><span dojoType="dijit.Tree" model="ForestStoreModel_1" showRoot="false" childrenAttr="children" openOnClick="false" openOnDblClick="false" persist="false" dndParams="onDndDrop,itemCreator,onDndCancel,checkAcceptance,checkItemAcceptance,dragThreshold,betweenThreshold" style="height: auto; width: auto; overflow: auto;" onclick="TreeOnClick"></span>	</body>
+</html>

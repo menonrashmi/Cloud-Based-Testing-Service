@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins
+END
+PrettyPrint.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/PrettyPrint.js
+END
+NormalizeIndentOutdent.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/NormalizeIndentOutdent.js
+END
+Breadcrumb.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/Breadcrumb.js
+END
+StatusBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/StatusBar.js
+END
+Blockquote.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/Blockquote.js
+END
+AutoUrlLink.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/AutoUrlLink.js
+END
+CollapsibleToolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/CollapsibleToolbar.js
+END
+FindReplace.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/FindReplace.js
+END
+SpellCheck.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/SpellCheck.js
+END
+ToolbarLineBreak.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/ToolbarLineBreak.js
+END
+_SmileyPalette.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/_SmileyPalette.js
+END
+Preview.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/Preview.js
+END
+PageBreak.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/PageBreak.js
+END
+NormalizeStyle.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/NormalizeStyle.js
+END
+TextColor.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/TextColor.js
+END
+ShowBlockNodes.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/ShowBlockNodes.js
+END
+ResizeTableColumn.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/ResizeTableColumn.js
+END
+UploadImage.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/UploadImage.js
+END
+AutoSave.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/AutoSave.js
+END
+_SpellCheckParser.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/_SpellCheckParser.js
+END
+TablePlugins.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/TablePlugins.js
+END
+EntityPalette.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/EntityPalette.js
+END
+PasteFromWord.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/PasteFromWord.js
+END
+LocalImage.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/LocalImage.js
+END
+Save.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/Save.js
+END
+InsertAnchor.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/InsertAnchor.js
+END
+InsertEntity.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/InsertEntity.js
+END
+Smiley.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/plugins/Smiley.js
+END

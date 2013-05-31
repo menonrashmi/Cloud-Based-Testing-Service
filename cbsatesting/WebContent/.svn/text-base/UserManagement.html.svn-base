@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled</title>
+</head>
+<body class="claro lotusui" data-davinci-ws="collapse" id="myapp" dvFlowLayout="true">
+ <h3>
+USER MANAGEMENT</h3>
+ <h2>
+ Acts as the default page when logged in or we can have a home page that summarizes everything</h2>
+ <h2>
+   If its used only for the Administrators, then we might need another page for user settings</h2>
+</body>
+</html>

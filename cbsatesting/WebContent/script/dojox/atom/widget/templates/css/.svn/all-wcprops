@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/atom/widget/templates/css
+END
+EntryHeader.css
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/atom/widget/templates/css/EntryHeader.css
+END
+HtmlFeedViewer.css
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/atom/widget/templates/css/HtmlFeedViewer.css
+END
+HtmlFeedViewerEntry.css
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/atom/widget/templates/css/HtmlFeedViewerEntry.css
+END
+HtmlFeedEntryViewer.css
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/atom/widget/templates/css/HtmlFeedEntryViewer.css
+END
+HtmlFeedEntryEditor.css
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/atom/widget/templates/css/HtmlFeedEntryEditor.css
+END
+HtmlFeedViewerGrouping.css
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/atom/widget/templates/css/HtmlFeedViewerGrouping.css
+END

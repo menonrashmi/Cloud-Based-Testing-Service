@@ -1,0 +1,144 @@
+package Recievers;
+
+import java.util.ArrayList;
+import javax.jms.Connection;
+import javax.jms.Destination;
+import javax.jms.ExceptionListener;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.MessageConsumer;
+import javax.jms.MessageListener;
+import javax.jms.ObjectMessage;
+import javax.jms.Session;
+import javax.jms.TextMessage;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+
+import cbsa.runner.run.SendMessage;
+import saaswatch.collector.Collector;
+
+public class RecieverSaaSWatch implements Runnable,MessageListener, ExceptionListener
+{
+	public SendMessage test;
+	public SendMessage recvObj;
+	int loopCounter = 0;
+	int tmpInstanceID= 0;
+	ArrayList<Collector> performanceInstanceList = new ArrayList<Collector>();
+	ArrayList<Collector> scalabilityInstanceList = new ArrayList<Collector>();
+
+
+	public void run() {
+		try {
+			// Create a ConnectionFactory
+			ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory("vm://localhost");
+
+			// Create a Connection
+			Connection connection = connectionFactory.createConnection();
+			connection.start();
+
+			connection.setExceptionListener(this);
+
+			// Create a Session
+			Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+
+			// Create the destination (Topic or Queue)
+			Destination destination = session.createQueue("REQUESTOR.CBSA");
+			System.out.println("Listen to: REQUESTOR.CBSA" );
+			// Create a MessageConsumer from the Session to the Topic or Queue
+			MessageConsumer consumer = session.createConsumer(destination);
+			consumer.setMessageListener(this);
+
+			//        consumer.close();
+			//        session.close();
+			//        connection.close();
+		} catch (Exception e) {
+			System.out.println("Caught: " + e);
+			e.printStackTrace();
+		}
+	}
+
+	public void onException(JMSException arg0) {
+		System.out.println("JMS Exception occured.  Shutting down client.");
+	}
+
+
+
+	@Override
+	public void onMessage(Message message) {
+		// ThreadGroup threadGroup = new ThreadGroup("RECV");
+		String stopper = null;
+		TextMessage msg = null;
+
+		if (message instanceof TextMessage) {
+			msg = (TextMessage) message;
+			try {
+				stopper = msg.getText();
+				int a = Integer.parseInt(stopper.split("-")[0]);
+				String type = stopper.split("-")[1];
+				System.out.println
+				("MESSAGE BEAN: Stop Message received: " 
+						+ stopper + " to stop instance: " + type + " " + a);
+				if (type.contains("Performance")){
+					for (Collector collector : performanceInstanceList)
+					{
+						if (collector.InstanceID == a)
+						{
+							collector.stop = true;
+							performanceInstanceList.remove(collector);
+						}
+					}
+				}
+				else if (type.contains("Scalability")){
+					for(Collector collector : scalabilityInstanceList)
+					{
+						if(collector.InstanceID == a)
+						{
+							collector.stop = true;
+							scalabilityInstanceList.remove(collector);
+						}
+					}
+						
+				}
+			} catch (JMSException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		} else {
+			Collector collectInstance = new Collector();
+
+			ObjectMessage obj = (ObjectMessage) message;
+			//System.out.println(obj.toString());
+			//TextMessage stoper = (TextMessage)message;
+			try {
+				//if(obj.toString() != "stop"){
+				collectInstance.recvObj = (SendMessage) obj.getObject();
+				//System.out.println(collectInstance.recvObj.Type);
+
+			} catch (JMSException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			if(collectInstance.recvObj.Type.contains("Performance")) {
+				performanceInstanceList.add(collectInstance);
+				System.out.println("performanceInstanceList size is " + performanceInstanceList.size());
+				Thread recieveThread = new Thread(collectInstance);
+				collectInstance.InstanceID = tmpInstanceID++ ;
+				recieveThread.start();
+				System.out.println("created receiver " + collectInstance.InstanceID);
+			}
+			else if(collectInstance.recvObj.Type.contains("Scalability")) {
+				scalabilityInstanceList.add(collectInstance);
+				System.out.println("scalabilityInstanceList size is " + scalabilityInstanceList.size());
+				Thread recieveThread = new Thread(collectInstance);
+				collectInstance.InstanceID = tmpInstanceID++ ;
+				recieveThread.start();
+				System.out.println("created receiver " + collectInstance.InstanceID);
+			}
+		}
+	}
+}
+
+
+

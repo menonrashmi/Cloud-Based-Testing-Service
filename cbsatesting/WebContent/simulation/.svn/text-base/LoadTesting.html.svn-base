@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Load Simulation Test</title>
+<link rel="stylesheet" type="text/css"
+	href="../script/dijit/themes/claro/claro.css" />
+<link rel="stylesheet" type="text/css" href="../style/main.css" />
+<script
+	src="../script/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+<script src="simulation.js"></script>
+
+</head>
+<body class="claro">
+ <div dojoType="dijit.layout.TabContainer" style="width: 95%; height: 90%;" id="jmeterContainer">
+        <div dojoType="dijit.layout.ContentPane" title="Load Testing Configuration" id="configTab" selected="true">
+   <br/><br/>
+    <div id="configForm">
+	
+	
+	<label for="tprojectName" class="fixedWidth" value="1">Test Project:</label>
+	<input id="tprojectName" name="tprojectName" type="text" dojoType="dijit.form.TextBox" value="load-2"/><br/><br/>
+	<label for="toolSel" class="fixedWidth">Test Tool:</label>
+	<select dojoType="dijit.form.ComboBox" id="toolSel" name="toolSel" >
+		<option selected> JMeter </option>
+	</select><br/><br/>
+	 <label for="tcaseName" class="fixedWidth">Test Case (optional):</label>
+	<!-- <input id="tcaseName" name="tcaseName" class="dijitTextBoxURL" type="text" dojoType="dijit.form.TextBox" /><br/>
+-->
+    <input type="file" class="dijitTextBoxURL" id="tcaseName" dojoType="dijit.form.TextBox" uploadOnSelect="true" ></input>&nbsp;&nbsp;
+    <a href="javascript:void(0)" onClick="changeURL('../TestProject/testware.jsp')">Need to upload test scripts? </a>
+<br/></br/><div class="alignRight"></br/>
+    
+<button dojoType="dijit.form.Button" type="reset">Cancel</button>
+<button dojoType="dijit.form.Button" type="button" onClick="submitTool()">Next</button></div>
+</div>
+</div>
+
+<div dojoType="dijit.layout.ContentPane" title="Manual Configuration" id="configTab2">
+<br />
+<script type="text/javascript">
+    dojo.addOnLoad(function() {
+     	
+       var time= new dijit.form.TimeTextBox({
+            name: "startTime",
+            value: new Date(),
+            constraints: {
+                timePattern: 'HH:mm',
+                visibleIncrement: 'T00:15',
+                visibleRange: 'T01:00'
+            }
+        },
+        "startTime");
+  
+        var date=new dijit.form.DateTextBox({
+            name: "startDate",
+            value: new Date(),
+            constraints: {
+                selector: 'date',
+                datePattern: 'MM-dd-yyyy',
+                locale: 'en-us'
+            }
+        },
+        "startDate");
+        
+        var button = new dijit.form.Button({
+            name: "scheduleTest",
+            onClick: function() {
+            	var s=dojo.byId("option").style;
+            	if(s.display=="none")
+                {s.display="block";}
+            	else 
+            	{s.display="none";}
+            
+        }},
+        "scheduleTest");
+    });
+
+</script>
+<body class="claro">
+
+	<form method="get" id="configForm">
+		<fieldset>
+			<legend>HTTP Request</legend>
+		
+				
+				<label for="protocol">Protocol:</label> <select id="protocol"
+					name="protocol" dojoType="dijit.form.ComboBox">
+					<option value="http" selected>HTTP</option>
+					<option value="https">HTTPS</option>
+				</select>
+			<div class="labelText"></div><label for="port">Port:</label> <input type="text"
+					dojotype="dijit.form.TextBox" id="port" name="port" value="8080"
+					maxlength="4" width="10px"></input><br/><br/>
+					<label for="servername">Server Name or IP:</label> <input
+					type="text" dojotype="dijit.form.TextBox" class="dijitTextBoxURL"
+					id="servername" name="servername" value="50.17.206.106"></input>
+				<div class="labelText"></div><br/><br/>
+			<label for="path" >Path:</label> <input type="text"
+				dojoType="dijit.form.TextBox" class="dijitTextBoxURL" id="path" name="path"
+				 value="/Foodopedia/WebContent/Foodopedia.jsp?Name=FATTY+ACID"></input><br />
+
+		</fieldset>
+		<br />
+		<br />
+		<fieldset>
+			<legend>Test Parameters</legend>
+			<label for="noofthreads">Number of Users:</label> <input type="text"
+				dojotype="dijit.form.TextBox" id="noofthreads" name="noofthreads"
+				value="2500"></input>
+			<div class="labelText"></div>
+			<label for="loopcount">Loop Count:</label> <input type="text"
+				dojotype="dijit.form.TextBox" id="loopcount" name="loopcount"
+				value="2"></input> <br />
+			<br /> <label for="rampupperiod">Time Interval:</label> <select
+				id="rampupperiod" name="rampupperiod" dojoType="dijit.form.ComboBox">
+				<option value="0">0</option>
+				<option value="5" selected>5 Seconds</option>
+				<option value="20">20 Seconds</option>
+				<option value="30">30 Seconds</option>
+			</select>
+			<div class="labelText"></div>
+			<label for="delay">Delay:</label> <select id="delay" name="delay"
+				dojoType="dijit.form.ComboBox">
+				<option value="0" selected>0</option>
+				<option value="1">1 Minute</option>
+				<option value="2">2 Minutes</option>
+				<option value="5">5 Minutes</option>
+				<option value="10">10 Minutes</option>
+				<option value="30">30 Minutes</option>
+			</select> 
+			
+			
+			<div id="option" style="display:none"><br /> 
+			
+			<label for="startDate" >Start Date:</label> <input
+				type="text" id="startDate"></input>
+			<div class="labelText"></div>
+			<label for="startTime" >Start Time:</label> <input
+				type="text" id="startTime"></input>
+				</div>	
+
+		</fieldset>
+	
+		<br /> <br />
+		<div class="alignRight">
+            <button id="scheduleTest">Schedule this Test</button>
+			<button type="reset" dojoType="dijit.form.Button" value="Reset">Reset</button>
+			<button type="button" dojoType="dijit.form.Button"
+				value="Proceed to Controller" id="startbtn" onClick="startTest()">Submit</button><br/>
+		</div>
+	</form>
+</div>
+
+
+<div dojoType="dijit.layout.ContentPane" title="Test Status" id="statusTab">
+<div id="barDiv" style="display:none">
+	      <br/><h3>Test Progress: </h3><br/>
+	      <div style="width:300px;float:left; margin-right:30px;" dojoType="dijit.ProgressBar" id="testProgress" maximum="10"></div>
+          <button dojoType="dijit.form.Button" value="Stop" id="stopbtn" onClick="stopTest">Stop Test</button><br/><br/>
+         </div>
+</div>
+</div>
+</body>
+
+</html>

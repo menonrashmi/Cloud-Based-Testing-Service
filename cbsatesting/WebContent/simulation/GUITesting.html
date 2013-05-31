@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>GUI Simulation Test</title>
+<link rel="stylesheet" type="text/css"
+	href="../script/dijit/themes/claro/claro.css" />
+<link rel="stylesheet" type="text/css" href="../style/main.css" />
+
+<script src="../script/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+<script src="simulation.js"></script>
+<script type="text/javascript">
+    dojo.addOnLoad(function() {
+     	
+       new dijit.form.TimeTextBox({
+            name: "startTime",
+            value: new Date(),
+            constraints: {
+                timePattern: 'HH:mm',
+                visibleIncrement: 'T00:15',
+                visibleRange: 'T01:00'
+            }
+        },
+        "startTime");
+
+        var date=new dijit.form.DateTextBox({
+            name: "startDate",
+            value: new Date(),
+            constraints: {
+                selector: 'date',
+                datePattern: 'MM-dd-yyyy',
+                locale: 'en-us'
+            }
+        },
+        "startDate");
+        
+        var button = new dijit.form.Button({
+            name: "scheduleTest",
+            onClick: function() {
+            	var s=dojo.byId("option").style;
+            	if(s.display=="none")
+                {s.display="block";}
+            	else 
+            	{s.display="none";}
+            
+        }},
+        "scheduleTest");
+        
+    });
+
+</script>
+</head>
+<body class="claro">
+
+    <div dojoType="dijit.layout.TabContainer" style="width: 95%; height: 95%;" id="seleniumContainer">
+        <div dojoType="dijit.layout.ContentPane" title="GUI Testing Configuration" selected="true" id="configTab">
+    <form method="get" id="configForm2">
+	
+	<fieldset>
+			<legend>Test Setup</legend>
+	<label for="tprojectName" class="fixedWidth">Test Project:</label>
+	<input id="tprojectName" name="tprojectName" type="text" value="gui-2" dojoType="dijit.form.TextBox" /><br/><br/>
+	
+	
+	<label for="toolSel" class="fixedWidth">Test Tool:</label>
+	<select dojoType="dijit.form.ComboBox" id="toolSel" name="toolSel">
+	
+		<option selected> Selenium </option>
+	</select><br/><br/>
+	<label for="testURL">Test URL: </label>
+	<input id="testURL" name="testURL" type="text" class="dijitTextBoxURL" dojoType="dijit.form.TextBox" value="http://50.17.206.106:8080"/><br/><br/>
+	<label for="testSuite" class="fixedWidth" >Test Suite: </label>
+	<input type="file" value="ts1.html" class="dijitTextBoxURL" id="testSuite" dojoType="dijit.form.TextBox" uploadOnSelect="true" ></input>
+	&nbsp;&nbsp;
+    <a href="javascript:void(0)" onClick="changeURL('../TestProject/testware.jsp')">Need to upload test scripts? </a>
+	</fieldset>
+<br/><br/>
+<fieldset>
+			<legend>Test Parameters</legend>
+			<label for="loopcount">Loop Count:</label><input type="text"
+				dojotype="dijit.form.TextBox" id="loopcount" name="loopcount"
+				value="1"></input> <br />
+			<br /> <label for="rampupperiod">Time Interval:</label><select
+				id="rampupperiod" name="rampupperiod" dojoType="dijit.form.ComboBox">
+				<option value="0">0</option>
+				<option value="5" selected>5 Seconds</option>
+				<option value="20">20 Seconds</option>
+				<option value="30">30 Seconds</option>
+			</select><br />
+			<br /> 
+			<label for="delay">Delay:</label><select id="delay" name="delay"
+				dojoType="dijit.form.ComboBox">
+				<option value="0" selected>0</option>
+				<option value="1">1 Minute</option>
+				<option value="2">2 Minutes</option>
+				<option value="5">5 Minutes</option>
+				<option value="10">10 Minutes</option>
+				<option value="30">30 Minutes</option>
+			</select> <br />
+			<div id="option" style="display:none"><br /> 
+			
+			<label for="startDate" >Start Date:</label><input
+				type="text" id="startDate"></input>
+			<div class="labelText"></div>
+			<label for="startTime" >Start Time:</label><input
+				type="text" id="startTime"></input>
+				</div>
+</fieldset> 
+<br/><br/>
+<div class="alignRight">
+
+ <button id="scheduleTest">Schedule this Test</button>
+<button dojoType="dijit.form.Button" type="reset">Cancel</button>
+<button dojoType="dijit.form.Button" id="submittest" type="button" onClick="startGUITest1()">Run Test</button>
+	</form>
+</div>
+</div>
+<div dojoType="dijit.layout.ContentPane" title="Test Status" id="statusTab">
+<div id="barDiv" style="display: none">
+		
+	</div>
+</div>
+
+
+
+
+</body>
+
+</html>

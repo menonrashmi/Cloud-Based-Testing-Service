@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/icons
+END
+editorIcons.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/icons/editorIcons.css
+END
+editorIcons_rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/icons/editorIcons_rtl.css
+END
+commonIcons.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/icons/commonIcons.css
+END
+commonIcons_rtl.css
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/icons/commonIcons_rtl.css
+END

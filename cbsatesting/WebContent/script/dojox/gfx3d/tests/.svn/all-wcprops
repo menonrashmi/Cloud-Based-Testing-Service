@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests
+END
+test_quads.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_quads.html
+END
+test_cube.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_cube.html
+END
+test_camerarotate_shaded.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_camerarotate_shaded.html
+END
+test_orbit.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_orbit.html
+END
+test_drawer.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_drawer.html
+END
+test_polygon.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_polygon.html
+END
+test_edges.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_edges.html
+END
+test_triangles.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_triangles.html
+END
+test_scene.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_scene.html
+END
+test_rotate.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_rotate.html
+END
+test_vector.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_vector.html
+END
+test_matrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_matrix.html
+END
+test_camerarotate.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_camerarotate.html
+END
+test_overlap.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_overlap.html
+END
+test_cylinder.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gfx3d/tests/test_cylinder.html
+END

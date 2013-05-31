@@ -1,0 +1,59 @@
+<html>
+  <head> 
+<font size="5" face="arial" color="blue" >
+<label1>Virtual Test Environment </label1> 
+</font>
+<font size="5" face="arial" color="blue">
+<label2 > >Test Projects</label>
+</font>
+</font>
+<font size="5" face="arial" color="black">
+<label2 >>Manage Instance:</label><br/><br/>
+</font>
+
+  <link type="text/css" rel="stylesheet" href="project.css" />
+
+  </head>
+     <body>
+ 
+	 <form action="TP.jsp" method="post">
+ 
+<TABLE BORDER="5"    WIDTH="50%"   CELLPADDING="4" CELLSPACING="3">
+   <TR>
+      
+   </TR>
+   <TR>
+<th>  '</th>
+      <th>Instance Id</th>
+<th>OS</th>
+ <th>Memory</th>
+<th>Storage</th>
+<th>Date</th>
+<th>Client Name</th>
+<th>Current Status</th>
+   </TR>
+   <TR ALIGN="CENTER">
+<td><input type="checkbox" name="ck" value=" " />  </td>
+      <TD>Data 1</TD>
+      <TD>Data 2</TD>
+   </TR>
+</TABLE>
+    
+    
+   
+
+  </tr>
+</table></br></br>
+<d class="actions"> <input type="submit" name="Start" value="Start">
+	 </d>
+<d class="actions"> <input type="submit" name="stop" value="Stop">
+	 </d>
+<d class="actions"> <input type="submit" name="terminate" value="Terminate">
+	 </d>
+<d class="actions"> <input type="submit" name="refresh" value="Refresh">
+	 </d>
+ 
+	 </form>
+ 
+</body>
+</html>

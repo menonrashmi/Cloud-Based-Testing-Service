@@ -1,0 +1,141 @@
+package cbsa.test.simulation;
+
+import java.net.*;
+import java.io.BufferedReader;
+import java.net.URISyntaxException;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.sql.Timestamp;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.SimpleTimeZone;
+import java.util.TimeZone;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class for Servlet: RunTestPlan
+ * 
+ */
+public class RunTestPlan extends javax.servlet.http.HttpServlet implements
+		javax.servlet.Servlet {
+
+	private static final long MAX_TARDINESS = 10;
+
+	private static final String UTF_8 = "utf-8";
+
+	public RunTestPlan() {
+		super();
+	
+	}
+
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		int startHour=Integer.parseInt(request.getParameter("startTime").substring(0, 2));
+		int startMin=Integer.parseInt(request.getParameter("startTime").substring(3, 5));
+		int startMonth=Integer.parseInt(request.getParameter("startDate").substring(0, 2));
+		int startDate=Integer.parseInt(request.getParameter("startDate").substring(2, 4));
+		int startYear=Integer.parseInt(request.getParameter("startDate").substring(4, 7));
+		
+		TimeZone tz = TimeZone.getTimeZone("America/Los_Angeles");
+		
+		Calendar calendar = new GregorianCalendar(tz);
+		calendar.set(startYear, startMonth-1, startDate-1, startHour-1, startMin, 0);
+	    
+		Timestamp ts = new Timestamp(calendar.getTimeInMillis());
+
+		long startTime = ts.getTime();
+
+		Calendar calendarNow = new GregorianCalendar(tz);
+		Timestamp tsNow = new Timestamp(calendarNow.getTimeInMillis());
+		long now = tsNow.getTime();
+		System.out.println("start:" + startHour + ":" + startMin +" "+ startMonth
+				+"-"+ startYear +"-"+ startDate);
+		System.out.println("now:"+now);
+		
+		String content = "servername="+ URLEncoder.encode(request.getParameter("servername"),UTF_8)
+		+ "&noofthreads="+ URLEncoder.encode(request.getParameter("noofthreads"),UTF_8)
+		+ "&rampupperiod="
+		+ URLEncoder.encode(request.getParameter("rampupperiod"),
+				UTF_8)
+		+ "&loopcount="
+		+ URLEncoder.encode(request.getParameter("loopcount"),
+				UTF_8)
+		+ "&protocol="
+		+ URLEncoder
+				.encode(request.getParameter("protocol"), UTF_8)
+		+ "&path="
+		+ URLEncoder.encode(request.getParameter("path"), UTF_8)
+		+ "&port="
+		+ URLEncoder.encode(request.getParameter("port"), UTF_8)
+		+ "&testProject="
+		+ URLEncoder.encode(request.getParameter("testProject"), UTF_8);;
+		
+		try {
+			
+			long sleepTime=startTime+3600000*8 - now+61000000;
+			System.out.println("sleep:"+sleepTime);
+			
+			if(sleepTime>0)
+				Thread.sleep(sleepTime);
+			
+			URI uri;
+			URL url;
+			URLConnection urlConn = null;
+			DataOutputStream cgiInput;
+			String line = "";
+			String phpOutput = "";
+	       
+			try {
+				url = new URL("http://localhost/cbsajmtr/index.php"); //mnj
+			
+				urlConn = url.openConnection();
+				urlConn.setDoInput(true);
+				urlConn.setDoOutput(true);
+				urlConn.setUseCaches(false);
+				urlConn.setRequestProperty("Content-Type",
+						"application/x-www-form-urlencoded");
+				System.out.println("Started J-Meter");
+				cgiInput = new DataOutputStream(urlConn.getOutputStream());
+
+				cgiInput.writeBytes(content);
+				cgiInput.flush();
+				cgiInput.close();
+
+				BufferedReader cgiOutput = new BufferedReader(
+						new InputStreamReader(urlConn.getInputStream()));
+
+				while (null != (line = cgiOutput.readLine())) {
+					phpOutput += line.trim();
+				}
+				response.setContentType("text/html");
+				response.getWriter().print(phpOutput);
+				response.getWriter().close();
+				System.out.println("test finished");
+
+			} catch (MalformedURLException e) {
+				System.out.println("MalformedURLException :" + e.getMessage());
+			} catch (IOException e) {
+				System.out.println("IOException :" + e.getMessage());
+			}
+			
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

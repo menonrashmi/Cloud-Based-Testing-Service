@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr">
+    
+    <head>
+        <title>CBSA Monitoring Tool</title>
+        
+    <link rel="stylesheet" type="text/css" href="script/dijit/themes/claro/claro.css" />
+	<link rel="stylesheet" type="text/css" href="style/main.css" />
+
+	<script src="script/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+
+        <script type="text/javascript">
+			dojo.require('dijit.layout.ContentPane');
+			dojo.require('dijit.MenuBar');
+			dojo.require('dijit.PopupMenuBarItem');
+			dojo.require('dijit.MenuItem');
+			dojo.require('dijit.Menu');
+			dojo.require('dojo.data.ItemFileWriteStore');
+			dojo.require('dijit.layout.BorderContainer');
+			dojo.require('dojo.data.ItemFileReadStore');
+        </script>
+        
+        <script type="text/javascript" src="Menu.js"></script>       
+    </head>
+
+    <body class="claro">
+    
+   	 	<div data-dojo-type="dijit.layout.BorderContainer" data-dojo-props="design:'headline', gutters:true, liveSplitters:true" id="borderContainer" style="height: 100%; width: 100%; overflow: visible;">
+			
+			<div dojoType="dijit.layout.ContentPane" region="top" splitter="true" style="height: 150px;">
+				
+				<iframe src="Banner.html" style="border: none; height: 115px; width: 100%; overflow: hidden;" scrolling="no">
+				</iframe>
+				
+			  	<div dojoType="dijit.MenuBar" id="naviMenu">
+		            <div dojoType="dijit.PopupMenuBarItem" label="Virtual Test Environment">
+		               <span>
+		                    Virtual Test Environment
+		                </span>
+		                <div dojoType="dijit.Menu" id="VirtualTestEnvironmentMenu">
+		                   
+		                    <div dojoType="dijit.MenuItem" label="Test Projects" style="display: inline-block;" onclick="TestProjects(event)">
+		                        Test Projects
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Testware Management" style="display: inline-block;" onclick="TestWareManagement(event)">
+		                        Testware Management
+		                    </div>
+		                     <div dojoType="dijit.MenuItem" label="Tool Configuration" style="display: inline-block;" onclick="VirtualTestEnvironment(event)">
+		                        Tool Configuration
+		                    </div>
+		                </div>
+		            </div>
+		            
+		            <div dojoType="dijit.PopupMenuBarItem" label="Performance Validation">
+		                <span>
+		                    Performance Validation
+		                </span>
+		                <div dojoType="dijit.Menu" id="PerformanceValidationMenu">
+		                    <div dojoType="dijit.MenuItem" label="Measurements" style="display: inline-block;" onclick="PerformanceValidation(event)">
+		                        Measurements
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Models" style="display: inline-block;" onclick="PerformanceValidation(event)">
+		                       	Models
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Runner" style="display: inline-block;" onclick="PerformanceValidation(event)">
+		                        Runner
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Monitor" style="display: inline-block;" onclick="PerformanceValidation(event)">
+		                        Monitor
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Reports" style="display: inline-block;" onclick="PerformanceValidation(event)">
+		                        Reports
+		                    </div>
+		                </div>
+		            </div>
+		            
+		            <div dojoType="dijit.PopupMenuBarItem" label="Scalability Validation">
+		                <span>
+		                    Scalability Validation
+		                </span>
+		                <div dojoType="dijit.Menu" id="ScalabilityValidationMenu">
+		                    <div dojoType="dijit.MenuItem" label="Measurements" style="display: inline-block;" onclick="ScalabilityValidation(event)">
+		                        Measurements
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Models" style="display: inline-block;" onclick="ScalabilityValidation(event)">
+		                       	Models
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Runner" style="display: inline-block;" onclick="ScalabilityValidation(event)">
+		                        Runner
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Monitor" style="display: inline-block;" onclick="ScalabilityValidation(event)">
+		                        Monitor
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Reports" style="display: inline-block;" onclick="ScalabilityValidation(event)">
+		                        Reports
+		                    </div>
+		                </div>
+		            </div>
+
+		            <div dojoType="dijit.PopupMenuBarItem" label="Test Simulation" onclick="TestSimulation()">
+		                <span>
+		                    Test Simulation
+		                </span>
+		                    
+		                    <div dojoType="dijit.Menu" id="TestSimulationMenu" >
+		                     <div dojoType="dijit.MenuItem" label="GUI Testing" style="display: inline-block;" onclick="TestSimulation(event)">
+		                        GUI Testing
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="Load Testing" style="display: inline-block;" onclick="TestSimulation(event)">
+		                        Load Testing
+		                    </div>
+		                   
+		                     <div dojoType="dijit.MenuItem" label="Test Results" style="display: inline-block;" onclick="TestSimulation()">
+		                        Test Results
+		                    </div> 
+		                </div> 
+		            </div>
+		            
+		            <div dojoType="dijit.PopupMenuBarItem" label="User Profile">
+		                <span>
+		                    User Profile
+		                </span>
+		                <div dojoType="dijit.Menu" id="UserProfileMenu">
+		                    <div dojoType="dijit.MenuItem" label="My Profile" style="display: inline-block;" onclick="UserProfile(event)">
+		                        My Profile
+		                    </div>
+		                    <div dojoType="dijit.MenuItem" label="User Management" style="display: inline-block;" onclick="UserProfile(event)">
+		                        User Management
+		                    </div>
+		                </div>
+		            </div>
+		            
+		        </div>
+		        
+			</div>
+
+			<div dojoType="dijit.layout.ContentPane" region="left" splitter="true" style="width: 220px;">
+				<iframe id="TreeFrame" src="TreeFrames/VirtualTestEnvironmentTree.html" style="border: none; height: 100%; width: 100%"></iframe>
+			</div>
+			
+			<div dojoType="dijit.layout.ContentPane" region="center" splitter="true" style="overflow: visible">
+			  <iframe id="ContentFrame" src="index.html" style="border: none; width: 100%; height: 100%;"></iframe>
+			
+			</div>
+			
+        </div>
+       	
+    </body>
+
+</html>

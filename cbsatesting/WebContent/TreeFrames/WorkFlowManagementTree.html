@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WorkFlow Tree</title>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dojo/dojo.xd.js" djConfig="parseOnLoad: true"></script>
+		<script type="text/javascript">
+			dojo.require('dojo.data.ItemFileReadStore');
+			dojo.require('dijit.Tree');
+		</script>
+		
+		<script type="text/javascript" src="WorkFlowTree.js"></script>
+		 
+		<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.6/dijit/themes/claro/claro.css" />
+		<link rel="stylesheet" type="text/css" href="../style/main.css" />
+	</head>
+		
+	<body class="claro lotusui" data-davinci-ws="collapse" dvFlowLayout="true" id="myapp">
+		<span dojoType="dojo.data.ItemFileReadStore" id="ItemFileReadStore_1" jsId="ItemFileReadStore_1" data="{&quot;identifier&quot;:&quot;id&quot;,&quot;label&quot;:&quot;label&quot;,&quot;items&quot;:[{&quot;label&quot;:[&quot;Test Tools &quot;],&quot;id&quot;:[705345736584]},{&quot;label&quot;:[&quot;Test Projects&quot;],&quot;id&quot;:[758246298181]},{&quot;label&quot;:[&quot;Testwares&quot;],&quot;id&quot;:[763054383686],&quot;children&quot;:[{&quot;label&quot;:[&quot;Test Scripts&quot;],&quot;id&quot;:[485091953771],&quot;children&quot;:[{&quot;label&quot;:[&quot;GUI Test Scripts&quot;],&quot;id&quot;:[238517543068]},{&quot;label&quot;:[&quot;Load Test Scripts&quot;],&quot;id&quot;:[754707596498]}]},{&quot;label&quot;:[&quot;Test Results&quot;],&quot;id&quot;:[628007227555],&quot;children&quot;:[{&quot;label&quot;:[&quot;GUI Test Results&quot;],&quot;id&quot;:[178854513913]},{&quot;label&quot;:[&quot;Load Test Results&quot;],&quot;id&quot;:[195837774314]}]}]}]}"></span><span dojoType="dijit.tree.ForestStoreModel" id="ForestStoreModel_1" rootLabel="Root" jsId="ForestStoreModel_1" store="ItemFileReadStore_1"></span><span dojoType="dijit.Tree" style="height: auto; width: auto; overflow: auto;" showRoot="false" autoExpand="true" model="ForestStoreModel_1" onclick="TreeOnClick"></span>
+	</body>
+</html>

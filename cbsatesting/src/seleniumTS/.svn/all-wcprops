@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/213/trunk/cbsatesting/src/seleniumTS
+END
+cbsatc.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/180/trunk/cbsatesting/src/seleniumTS/cbsatc.html
+END
+ec2ts.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/180/trunk/cbsatesting/src/seleniumTS/ec2ts.html
+END
+ec2tc.html
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/180/trunk/cbsatesting/src/seleniumTS/ec2tc.html
+END
+ts1.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/180/trunk/cbsatesting/src/seleniumTS/ts1.html
+END

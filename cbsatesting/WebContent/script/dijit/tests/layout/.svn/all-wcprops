@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout
+END
+TabContainerTitlePane.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/TabContainerTitlePane.html
+END
+getResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/getResponse.php
+END
+test_BorderContainer_nested.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_BorderContainer_nested.html
+END
+doc0.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/doc0.html
+END
+doc2.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/doc2.html
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/runTests.html
+END
+tab2.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/tab2.html
+END
+tab4.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/tab4.html
+END
+test_BorderContainer_experimental.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_BorderContainer_experimental.html
+END
+test_TabContainer_noLayout.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_TabContainer_noLayout.html
+END
+borderContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/borderContainer.php
+END
+AccordionContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/AccordionContainer.html
+END
+test_StackContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_StackContainer.html
+END
+nestedStack.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/nestedStack.html
+END
+TabContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/TabContainer.html
+END
+ContentPaneLayout.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/ContentPaneLayout.html
+END
+_lorem.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/_lorem.html
+END
+test_ContentPane.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_ContentPane.html
+END
+ContentPane.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/ContentPane.html
+END
+test_BorderContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_BorderContainer.html
+END
+LayoutContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/LayoutContainer.html
+END
+BorderContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/BorderContainer.html
+END
+tab3_noLayout.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/tab3_noLayout.html
+END
+test_Gui.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_Gui.html
+END
+combotab.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/combotab.html
+END
+doc1.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/doc1.html
+END
+tab1.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/tab1.html
+END
+tab3.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/tab3.html
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/module.js
+END
+test_SplitContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_SplitContainer.html
+END
+test_BorderContainer_full.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_BorderContainer_full.html
+END
+test_AccordionContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_AccordionContainer.html
+END
+multipleLayoutWidgets.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/multipleLayoutWidgets.php
+END
+test_BorderContainer_complex.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_BorderContainer_complex.html
+END
+ContentPane-remote.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/ContentPane-remote.html
+END
+test_TabContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/layout/test_TabContainer.html
+END

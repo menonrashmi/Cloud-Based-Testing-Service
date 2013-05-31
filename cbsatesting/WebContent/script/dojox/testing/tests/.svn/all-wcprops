@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/testing/tests
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/testing/tests/module.js
+END
+DocTest.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/testing/tests/DocTest.js
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/testing/tests/runTests.html
+END

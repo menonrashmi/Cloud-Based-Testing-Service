@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests
+END
+test_label_shortening.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_label_shortening.html
+END
+test_pie_smart_label.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_pie_smart_label.html
+END
+test_chart2d_updating.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_chart2d_updating.html
+END
+test_win2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_win2d.html
+END
+test_bars.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_bars.html
+END
+test_labels2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_labels2d.html
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/runTests.html
+END
+stock.json
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/stock.json
+END
+test_nulls.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_nulls.html
+END
+test_chartTitle.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_chartTitle.html
+END
+theme_preview.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/theme_preview.html
+END
+charting.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/charting.js
+END
+test_chart2d_dynamics.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_chart2d_dynamics.html
+END
+test_tension.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_tension.html
+END
+test_selectableLegend.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_selectableLegend.html
+END
+test_DataSeries.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_DataSeries.html
+END
+test_themes.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_themes.html
+END
+test_series_order.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_series_order.html
+END
+test_rotatedLabels.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_rotatedLabels.html
+END
+test_fireEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_fireEvent.html
+END
+test_chart2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_chart2d.html
+END
+test_chartAxisTitle.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_chartAxisTitle.html
+END
+test_widget2d_deprecated.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_widget2d_deprecated.html
+END
+test_DataChart.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_DataChart.html
+END
+test_cylinders.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_cylinders.html
+END
+test_axes.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_axes.html
+END
+test_pie2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_pie2d.html
+END
+test_event2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_event2d.html
+END
+test_StoreSeries.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_StoreSeries.html
+END
+test_widget2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_widget2d.html
+END
+test_plot_order.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_plot_order.html
+END
+test_scaler.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_scaler.html
+END
+test_anim2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_anim2d.html
+END
+test_axisZoomControl.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_axisZoomControl.html
+END
+test_sparklines.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_sparklines.html
+END
+Theme.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/Theme.js
+END
+test_spider2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/charting/tests/test_spider2d.html
+END

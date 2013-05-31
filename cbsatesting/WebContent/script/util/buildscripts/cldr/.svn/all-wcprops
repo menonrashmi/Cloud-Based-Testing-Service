@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr
+END
+currency.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/currency.xsl
+END
+util.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/util.xsl
+END
+alias.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/alias.js
+END
+wrap.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/wrap.js
+END
+specialLocale.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/specialLocale.js
+END
+arrayInherit.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/arrayInherit.js
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/README
+END
+cldrUtil.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/cldrUtil.js
+END
+number.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/number.xsl
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/build.xml
+END
+calendar.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/cldr/calendar.xsl
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests
+END
+entities.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/entities.js
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/module.js
+END
+format.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/format.js
+END
+test_style-html.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/test_style-html.html
+END
+test_metrics_getTextBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/test_metrics_getTextBox.html
+END
+test_styles.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/test_styles.html
+END
+test_ellipsis.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/test_ellipsis.html
+END
+test_themes.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/test_themes.html
+END
+formatted.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/formatted.html
+END
+test_metrics.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/test_metrics.html
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/runTests.html
+END
+unformatted.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/unformatted.html
+END
+test_set.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/html/tests/test_set.html
+END

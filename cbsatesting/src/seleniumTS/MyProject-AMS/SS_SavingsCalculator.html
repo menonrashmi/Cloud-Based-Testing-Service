@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.timetrex.com/" />
+<title>SavingsCalculator</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">SavingsCalculator</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/savings_calculator.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Savings<br /> &gt; Calculator</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Pay Schedule:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=data[pay_period_schedule_id]</td>
+	<td>label=Weekly (52)</td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Number of Employees:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Average Hours Per Week:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Average Supervisor Wage:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=data[supervisor_wage]</td>
+	<td>35.00</td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$ PER HOUR</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>PER EMPLOYEE</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Average Employee Wage:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=data[employee_wage]</td>
+	<td>25.00</td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$ PER HOUR</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=action</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gantt
+END
+GanttResourceItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gantt/GanttResourceItem.js
+END
+TabMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gantt/TabMenu.js
+END
+GanttChart.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gantt/GanttChart.js
+END
+GanttTaskItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gantt/GanttTaskItem.js
+END
+GanttProjectItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/gantt/GanttProjectItem.js
+END

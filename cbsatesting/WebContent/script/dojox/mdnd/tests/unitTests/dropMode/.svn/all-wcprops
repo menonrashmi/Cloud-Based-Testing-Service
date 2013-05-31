@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/unitTests/dropMode
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/unitTests/dropMode/module.js
+END
+DefaultDropModeTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/unitTests/dropMode/DefaultDropModeTest.html
+END
+VerticalDropModeTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/unitTests/dropMode/VerticalDropModeTest.html
+END
+OverDropModeTest.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/unitTests/dropMode/OverDropModeTest.html
+END
+FixtureLib.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/unitTests/dropMode/FixtureLib.js
+END

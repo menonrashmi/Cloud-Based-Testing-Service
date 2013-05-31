@@ -1,0 +1,188 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>passed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>6</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.18</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.0</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" class="selenium" border="1" cellpadding="1" cellspacing="1"><tbody>
+<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<tr class="  status_passed"><td><a href="#testresult0">SS_RequestAQuote</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">SS_RequestAQuote.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">RequestAQuote</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/quote.php</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Request a<br> &gt; Quote</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Total number of Employees in your organization:</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>name=data[employee]</td>
+	<td>100</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Total number of Locations:</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>name=data[location]</td>
+	<td>5</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Number of employees that work remotely:</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>name=data[remote_employee]</td>
+	<td>30</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Annual Revenue:</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>select</td>
+	<td>name=data[revenue_id]</td>
+	<td>label=$1-2 Million</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>What Industry Are You In:</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>select</td>
+	<td>name=data[industry_id]</td>
+	<td>label=Health Care and Social Assistance</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/SS_RequestAQuote.html
+info: Executing: |open | /quote.php |  |
+info: Executing: |assertTextPresent | Request a
+ &gt; Quote |  |
+info: Executing: |assertTextPresent | Total number of Employees in your organization: |  |
+info: Executing: |type | name=data[employee] | 100 |
+info: Executing: |assertTextPresent | Total number of Locations: |  |
+info: Executing: |type | name=data[location] | 5 |
+info: Executing: |assertTextPresent | Number of employees that work remotely: |  |
+info: Executing: |type | name=data[remote_employee] | 30 |
+info: Executing: |assertTextPresent | Annual Revenue: |  |
+info: Executing: |select | name=data[revenue_id] | label=$1-2 Million |
+info: Executing: |assertTextPresent | What Industry Are You In: |  |
+info: Executing: |select | name=data[industry_id] | label=Health Care and Social Assistance |
+</pre></body></html>

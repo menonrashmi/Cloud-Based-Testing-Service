@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Test Simulation Configuration</title>
+<link rel="stylesheet" type="text/css"
+	href="/cbsatesting/script/dijit/themes/claro/claro.css" />
+<link rel="stylesheet" type="text/css" href="/cbsatesting/style/main.css" />
+
+<script src="/cbsatesting/script/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+<script type="text/javascript">
+   dojo.require("dojox.charting.Chart2D");
+   dojo.require("dojox.charting.themes.Wetland");
+
+   dojo.addOnLoad(function() {
+      var chart = new dojox.charting.Chart2D("chart");
+      chart.setTheme(dojox.charting.themes.Wetland);
+      chart.addPlot("default", {
+      type : "Spider",
+      labelOffset : -10,
+      divisions : 4,
+      seriesFillAlpha : .2,
+      markerSize : 3,
+      precision : 0,
+      spiderType : "polygon",
+      htmlLabels: true,
+      animationType: dojo.fx.easing.backOut
+      });
+      chart.addSeries("Time1", {
+         data : {
+         "CPU" : 28,
+         "Memory" : 200,
+         "Network In" : 100,
+         "Network Out" : 70
+         }
+      }, {
+         fill : "blue"
+      });
+      chart.addSeries("Time2", {
+         data : {
+            "CPU" : 30,
+            "Memory" : 250,
+            "Network In" : 200,
+            "Network Out" : 100
+         }
+      }, {
+         fill : "green"
+      });
+
+      chart.addSeries("Time3", {
+         data : {
+            "CPU" : 42.2,
+            "Memory" : 300,
+            "Network In" : 500,
+            "Network Out" : 300
+         }
+      }, {
+         fill : "purple",
+      });
+   
+      chart.render();
+
+
+   });
+</script>
+</head>
+<body class="claro">
+	<div id="chart" style="width: 600px; height: 540px;"></div>
+	<div id="legend" style="width: 300px; "></div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/module.js
+END
+tabindex.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/tabindex.html
+END
+test_typematic.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/test_typematic.html
+END
+multiversion.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/multiversion.html
+END
+wai.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/wai.html
+END
+test_CrossWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/test_CrossWindow.html
+END
+test_popup.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/test_popup.html
+END
+test_focusWidget.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/test_focusWidget.html
+END
+place.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/place.html
+END
+test_FocusManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/test_FocusManager.html
+END
+manager.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/manager.html
+END

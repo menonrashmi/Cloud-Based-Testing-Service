@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests
+END
+editorAutoUrlLink.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorAutoUrlLink.html
+END
+wordlist.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/wordlist.txt
+END
+editorUploadPlug.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorUploadPlug.html
+END
+editorSpellCheck.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorSpellCheck.html
+END
+editorToolbarLineBreak.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorToolbarLineBreak.html
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/runTests.html
+END
+editorSmileyPlugin.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorSmileyPlugin.html
+END
+dummySave.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/dummySave.php
+END
+editorPasteFromWord.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorPasteFromWord.html
+END
+editorSave.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorSave.html
+END
+editorInsertEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorInsertEntity.html
+END
+editorTablePlugs.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorTablePlugs.html
+END
+testPluginsAll.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/testPluginsAll.html
+END
+testBodySheet.css
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/testBodySheet.css
+END
+editorNormalizeIndentOutdent.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorNormalizeIndentOutdent.html
+END
+editorBreadcrumb.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorBreadcrumb.html
+END
+editorStatusBar.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorStatusBar.html
+END
+editorBlockquote.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorBlockquote.html
+END
+editorCollapsibleToolbar.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorCollapsibleToolbar.html
+END
+editorFindReplace.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorFindReplace.html
+END
+testContentSheet.css
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/testContentSheet.css
+END
+editorNormalizeStyle.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorNormalizeStyle.html
+END
+editorPreview.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorPreview.html
+END
+editorPageBreak.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorPageBreak.html
+END
+editorTextColor.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorTextColor.html
+END
+editorShowBlockNodes.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorShowBlockNodes.html
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/module.js
+END
+sample.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/sample.jpg
+END
+editorResizeTableColumn.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorResizeTableColumn.html
+END
+editorAutoSave.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorAutoSave.html
+END
+PorterStemmer.php.disabled
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/PorterStemmer.php.disabled
+END
+editorLocalImage.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorLocalImage.html
+END
+editorInsertAnchor.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorInsertAnchor.html
+END
+spellCheck.php.disabled
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/spellCheck.php.disabled
+END
+editorPrettyPrint.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/editor/tests/editorPrettyPrint.html
+END

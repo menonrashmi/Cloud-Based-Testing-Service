@@ -1,0 +1,22 @@
+body {
+	font: small bold Verdana, Arial, Helvetica, Geneva, sans-serif;
+	margin:0px 0px; 
+	padding:0px;
+	text-align:left;
+}
+form div {
+	margin 0 0 0.25ex 0;
+	clear: left;
+}
+label {
+	width: 6em;
+	display: block;
+	float: left;
+	font-weight: bold;
+	padding-right: 1.6em;
+	text-align: center;
+}
+form div.actions {
+	margin-left: 8em;
+	padding-left: 1.5em;
+}

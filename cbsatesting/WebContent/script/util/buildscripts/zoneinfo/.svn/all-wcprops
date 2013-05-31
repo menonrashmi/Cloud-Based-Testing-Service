@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/zoneinfo
+END
+tzdata2009k.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/zoneinfo/tzdata2009k.tar.gz
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/zoneinfo/LICENSE
+END
+strip_olson_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/zoneinfo/strip_olson_comments.rb
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/zoneinfo/README
+END

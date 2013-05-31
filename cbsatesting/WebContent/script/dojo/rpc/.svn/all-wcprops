@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/rpc
+END
+RpcService.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/rpc/RpcService.js
+END
+JsonpService.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/rpc/JsonpService.js
+END
+JsonService.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/rpc/JsonService.js
+END

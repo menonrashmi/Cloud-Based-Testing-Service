@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire
+END
+TextAdapter.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/TextAdapter.js
+END
+Wire.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/Wire.js
+END
+XmlWire.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/XmlWire.js
+END
+TableAdapter.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/TableAdapter.js
+END
+_base.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/_base.js
+END
+CompositeWire.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/CompositeWire.js
+END
+DataWire.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/DataWire.js
+END
+TreeAdapter.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/TreeAdapter.js
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/wire/README
+END

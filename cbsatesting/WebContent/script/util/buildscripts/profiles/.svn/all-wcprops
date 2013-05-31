@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles
+END
+standardCustomBase.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/standardCustomBase.profile.js
+END
+mobile.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/mobile.profile.js
+END
+base.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/base.profile.js
+END
+cometd.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/cometd.profile.js
+END
+dtkapi.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/dtkapi.profile.js
+END
+mobile-all.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/mobile-all.profile.js
+END
+fx.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/fx.profile.js
+END
+demos-all.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/demos-all.profile.js
+END
+baseplus.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/baseplus.profile.js
+END
+sql.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/sql.profile.js
+END
+layers.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/layers.profile.js
+END
+rhino.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/rhino.profile.js
+END
+standard.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/standard.profile.js
+END
+storage.profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/buildscripts/profiles/storage.profile.js
+END

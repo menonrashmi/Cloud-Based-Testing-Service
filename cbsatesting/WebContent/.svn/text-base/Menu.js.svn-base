@@ -1,0 +1,109 @@
+function VirtualTestEnvironment(event)
+{
+   frame = document.getElementById("TreeFrame");
+   document.getElementById("TreeFrame").src = "TreeFrames/VirtualTestEnvironmentTree.html";
+
+   //var label = event.target.innerHTML== "Create Environment";
+   //label = label.replace(/ /g, "");
+   //label = "Images/" + label + ".png";
+   //document.getElementById("ContentFrame").src = label;
+   if(event.target.innerHTML == "Test Project")
+      
+   document.getElementById("ContentFrame").src = "/cbsatesting/TestProject/testware.jsp";
+   else
+      document.getElementById("ContentFrame").src = "/cbsatesting/TestTool/Testtool.jsp";
+   
+}
+
+
+function PerformanceValidation(event)
+{
+	var frame = document.getElementById("TreeFrame");
+	document.getElementById("TreeFrame").src = "TreeFrames/PerformanceValidationTree.html";
+
+	if(event.target.innerHTML == "Measurements")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Performance/PerformanceMetrics.jsp";
+	
+	if(event.target.innerHTML == "Models")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Performance/PerformanceModels.jsp";
+	
+	if(event.target.innerHTML == "Runner")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Performance/PerformanceRunner.jsp";
+	
+	if(event.target.innerHTML == "Monitor")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Performance/PerformanceMonitor.jsp";
+	
+	if(event.target.innerHTML == "Report")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Performance/PerformanceReports.jsp";
+}
+
+function ScalabilityValidation(event)
+{
+	var frame = document.getElementById("TreeFrame");
+	document.getElementById("TreeFrame").src = "TreeFrames/ScalabilityValidationTree.html";
+
+	if(event.target.innerHTML == "Measurements")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Scalability/ScalabilityMetrics.jsp";
+	
+	if(event.target.innerHTML == "Models")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Scalability/ScalabilityModels.jsp";
+	
+	if(event.target.innerHTML == "Runner")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Scalability/ScalabilityRunner.jsp";
+	
+	if(event.target.innerHTML == "Monitor")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Scalability/ScalabilityMonitor.jsp";
+	
+	if(event.target.innerHTML == "Report")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Scalability/ScalabilityReports.jsp";
+}
+
+function TestSimulation(event)
+{
+	var frame = document.getElementById("TreeFrame");
+	if(frame.src != "TreeFrames/SimulationTree.html")
+	{
+		document.getElementById("TreeFrame").src = "TreeFrames/SimulationTree.html";
+	}
+	if(event==undefined)
+		document.getElementById("ContentFrame").src = "simulation/testResults.php";
+	else{
+	var label = "simulation/" + event.target.innerHTML.replace(" ","") + ".html";
+	document.getElementById("ContentFrame").src = label;
+	}
+}
+
+function TestWareManagement(event)
+{
+	var frame = document.getElementById("TreeFrame");
+	if(frame.src != "TreeFrames/VirtualTestEnvironmentTree.html")
+	{
+		document.getElementById("ContentFrame").src = "TreeFrames/VirtualTestEnvironmentTree.html";
+	}
+	
+	document.getElementById("ContentFrame").src = "/cbsatesting/TestProject/testware.jsp";
+}
+
+function TestProjects(event)
+{
+   var frame = document.getElementById("TreeFrame");
+   document.getElementById("TreeFrame").src = "TreeFrames/VirtualTestEnvironmentTree.html";
+   
+   if(event.target.innerHTML == "Test Projects")         
+   
+   document.getElementById("ContentFrame").src = "/cbsatesting/TestProject/testing_space_new.jsp";
+   
+}
+
+
+function UserProfile(event)
+{
+	var frame = document.getElementById("TreeFrame");
+	document.getElementById("TreeFrame").src = "TreeFrames/UserProfileTree.html";
+	
+	if(event.target.innerHTML == "My Profile")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Users/MyProfile.jsp";
+	
+	if(event.target.innerHTML == "User Management")
+		document.getElementById("ContentFrame").src = "/cbsatesting/Users/UserManagement.jsp";
+}

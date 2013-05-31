@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/62/trunk/cbsatesting/WebContent/script/dojo/_base
+END
+html.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/62/trunk/cbsatesting/WebContent/script/dojo/_base/html.js
+END
+query.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/query.js
+END
+window.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/window.js
+END
+json.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/json.js
+END
+fx.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/fx.js
+END
+Color.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/Color.js
+END
+array.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/array.js
+END
+Deferred.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/Deferred.js
+END
+event.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/event.js
+END
+lang.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/lang.js
+END
+NodeList.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/NodeList.js
+END
+query-sizzle.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/query-sizzle.js
+END
+browser.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/browser.js
+END
+connect.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/connect.js
+END
+declare.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/declare.js
+END
+xhr.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/_base/xhr.js
+END

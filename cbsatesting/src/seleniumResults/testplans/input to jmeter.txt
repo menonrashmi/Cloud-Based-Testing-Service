@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="14" lt="0" ts="1334642052505" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-1" dt="text" by="87"/>
+<sample t="29" lt="0" ts="1334642052606" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-2" dt="text" by="87"/>
+<sample t="10" lt="0" ts="1334642052709" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-3" dt="text" by="87"/>
+<sample t="11" lt="0" ts="1334642052810" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-4" dt="text" by="87"/>
+<sample t="12" lt="0" ts="1334642052909" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-5" dt="text" by="87"/>
+<sample t="10" lt="0" ts="1334642053010" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-6" dt="text" by="87"/>
+<sample t="11" lt="0" ts="1334642053110" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-7" dt="text" by="87"/>
+<sample t="12" lt="0" ts="1334642053210" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-8" dt="text" by="87"/>
+<sample t="11" lt="0" ts="1334642053309" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-9" dt="text" by="87"/>
+<sample t="54" lt="0" ts="1334642053411" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-10" dt="text" by="87"/>
+
+<sample t="40" lt="0" ts="1334642077932" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-1" dt="text" by="87"/>
+<sample t="12" lt="0" ts="1334642078051" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-2" dt="text" by="87"/>
+<sample t="36" lt="0" ts="1334642078132" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-3" dt="text" by="87"/>
+<sample t="19" lt="0" ts="1334642078264" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-4" dt="text" by="87"/>
+<sample t="29" lt="0" ts="1334642078333" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-5" dt="text" by="87"/>
+<sample t="40" lt="0" ts="1334642078431" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-6" dt="text" by="87"/>
+<sample t="10" lt="0" ts="1334642078533" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-7" dt="text" by="87"/>
+<sample t="39" lt="0" ts="1334642078631" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConsole 5-8" dt="text" by="87"/>
+<sample t="12" lt="0" ts="1334642078734" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="JoinConso

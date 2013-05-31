@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot/module.js
+END
+test_dnd_defaultDropMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot/test_dnd_defaultDropMode.html
+END
+test_dnd_verticalDropMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot/test_dnd_verticalDropMode.html
+END
+test_dnd_dndToDojo.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot/test_dnd_dndToDojo.html
+END
+test_dnd_overDropMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot/test_dnd_overDropMode.html
+END
+test_dnd_dndFromDojo.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot/test_dnd_dndFromDojo.html
+END
+test_dnd_acceptance.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mdnd/tests/robot/test_dnd_acceptance.html
+END

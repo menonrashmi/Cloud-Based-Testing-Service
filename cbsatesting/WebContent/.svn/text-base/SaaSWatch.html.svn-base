@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SaaS Watch</title>
+		<script type="text/javascript">
+			function init()
+			{		
+				var httpRequest = null;
+			      
+				if (window.XMLHttpRequest) 
+				{   
+				   // Mozilla, Safari, Opera ...
+				   httpRequest = new XMLHttpRequest();
+				} 
+				else if (window.ActiveXObject) 
+				{
+				   // IE5 and 6
+				   try 
+				   {
+				       httpRequest = new ActiveXObject('Msxml2.XMLHTTP');
+				   } 
+				   catch (e) 
+				   {
+				       try 
+				       {
+				           httpRequest = new ActiveXObject('Microsoft.XMLHTTP');
+				       } 
+				       catch (e) { }
+				   }
+				}
+				
+				httpRequest.onreadystatechange = function() 
+				{
+				    if (httpRequest.readyState==4)
+				    {
+				    	alert(httpRequest.statusText);
+				    	document.getElementById('results').innerHTML= httpRequest.responseText;
+				    	getData();
+				    }
+				}
+				
+				var url = "/Sample.html"
+				httpRequest.open("GET", url, true);
+				httpRequest.send(null);
+			}
+			
+			function getData()
+			{
+				var tables = document.getElementsByTagName('table');
+				var i = 0;
+				while (i < tables.length)
+				{
+					var trows = tables[i].getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+					var j = 0;
+					while (j < trows.length)
+					{
+						var tdata = trows[j].getElementsByTagName('td');
+						document.getElementById('results').innerHTML += '<p>' + tdata[0].innerHTML + ' ' + tdata[2].innerHTML
+							+ tdata[3].innerHTML + '</p>';
+						j++;
+					}
+					i++;
+				}
+				
+			}
+			
+			window.onload = init();
+		</script>
+	</head>
+	<body>
+		<p id='results'>
+			RESULTS GO HERE!
+		</p>
+	</body>
+</html>

@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/62/trunk/cbsatesting/WebContent/script/dojo/tests
+END
+html.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/html.js
+END
+test_fx.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/test_fx.html
+END
+AdapterRegistry.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/AdapterRegistry.js
+END
+baseonly.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/baseonly.js
+END
+smoke-dojo-sie.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/smoke-dojo-sie.html
+END
+uacss.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/uacss.js
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/runTests.html
+END
+back-hash.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/back-hash.js
+END
+hash.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/hash.js
+END
+parser.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/parser.html
+END
+Stateful.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/Stateful.js
+END
+back.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/back.html
+END
+regexp.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/regexp.js
+END
+store.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/store.js
+END
+parser.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/parser.js
+END
+back.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/back.js
+END
+cookie.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/cookie.html
+END
+NodeList-traverse.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/NodeList-traverse.html
+END
+cache.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/cache.js
+END
+fx.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/fx.html
+END
+NodeList-manipulate.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/NodeList-manipulate.html
+END
+string.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/string.js
+END
+window.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/window.js
+END
+cookie.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/cookie.js
+END
+_base.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/_base.js
+END
+data.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data.js
+END
+NodeList-traverse.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/NodeList-traverse.js
+END
+test_FirebugLitePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/test_FirebugLitePopup.html
+END
+DeferredList.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/DeferredList.js
+END
+fx.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/fx.js
+END
+date.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/date.js
+END
+NodeList-manipulate.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/NodeList-manipulate.js
+END
+i18n.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/i18n.js
+END
+NodeList-data.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/NodeList-data.html
+END
+rpc.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/rpc.js
+END
+NodeList-fx.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/NodeList-fx.html
+END
+cldr.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/cldr.js
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/module.js
+END
+behavior.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/behavior.html
+END
+number.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/number.js
+END
+NodeList-data.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/NodeList-data.js
+END
+test_FirebugLite.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/test_FirebugLite.html
+END
+currency.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/currency.js
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/TODO
+END
+behavior.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/behavior.js
+END
+colors.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/colors.js
+END

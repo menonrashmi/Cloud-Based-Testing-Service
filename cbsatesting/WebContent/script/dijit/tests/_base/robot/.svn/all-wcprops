@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/robot
+END
+typematic.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/robot/typematic.html
+END
+CrossWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/robot/CrossWindow.html
+END
+popup.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/robot/popup.html
+END
+focus_mouse.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/robot/focus_mouse.html
+END
+FocusManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/_base/robot/FocusManager.html
+END

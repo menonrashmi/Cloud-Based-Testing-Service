@@ -1,0 +1,203 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	width: 99.75%;
+	height: 99%;
+	overflow: auto;
+}
+
+#borderContainer {
+	width: 100%;
+	height: 100%;
+}
+
+
+div.alignRight {
+	float: left; 
+	
+}
+
+p.subTitle {
+	color: #338;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.dijitTextBox {
+	width: 10em;
+}
+
+
+.dijitTextBoxURL{
+	width: 20em !important;
+}
+
+div.labelText {
+	width: 50px;
+	display: inline-block;
+}
+
+
+/* for jmeterResults.php */
+table.blueTable {
+	border-top: 2px solid #89f;
+	border-left: 2px solid #89f;
+}
+
+table.blueTable tr,table.blueTable  td, table.blueTable th {
+	border-right: 2px solid #89f;
+	border-bottom: 2px solid #89f;
+}
+
+label {
+	display: inline-block;
+	min-width: 4em;
+	padding-right: 10px;
+}
+
+label.short {
+	display: inline-block;
+	width: 4em !important;
+	padding-right: 5px;
+}
+
+label.fixedWidth,#configForm label ,#configForm2 label,#searchResultForm label{
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for MyProfile.jsp */
+table.userinfo td:first-of-type{
+	width: 100pt;
+	height: 15pt;
+	vertical-align: text-top;
+}
+
+/* for PresonalInformation.jsp */
+table.personalinfo td:first-of-type {
+	width: 75pt;
+	height: 15pt;
+	vertical-align: text-top;
+}
+
+table.password td:first-of-type {
+	width: 100pt;
+	height: 20pt;
+	vertical-align: text-top;
+}
+
+/* for UserManagement.jsp & Performance*.jsp */
+table.graytable th {
+	padding: 5px 10px;
+	background-color: #F0F0F0;
+	border-bottom: #000000 1px solid;
+	border-right: #000000 1px solid;
+}
+
+table.graytable td {
+	padding: 5px 15px;
+	border: #000000 1px solid;
+	text-align: center;
+}
+
+
+
+
+
+
+/* for CreateMetric.jsp */
+table.createmetric td:first-of-type {
+	width: 100px;
+	vertical-align: top;
+}
+table.createmetric td {
+	padding: 10px; 
+}
+
+/* for DisplayMetric.jsp */
+table.displaymetric td:first-of-type {
+	width: 100px;
+	vertical-align: top;
+}
+table.displaymetric td {
+	padding: 10px; 
+}
+
+
+table.createmodel td:first-of-type {
+	width: 130px;
+	vertical-align: top;
+}
+table.createmodel td {
+	padding: 10px; 
+}
+
+table.displaymodel td:first-of-type {
+	width: 135px;
+	vertical-align: top;
+}
+table.displaymodel td {
+	padding: 5px; 
+}
+
+
+
+
+
+/* for buttons and buttons banner for UserManagement.jsp */
+#userbuttons {
+	padding: 5px;
+	max-width: 310px;
+	background-color: #E0E0E0;
+	border: #000000 1px solid;
+}
+
+/* for buttons and buttons banner for PerformanceMetrics.jsp */
+#performancebuttons {
+	padding: 5px;
+	// background-color: #E0E0E0;
+	// border: #000000 1px solid;
+}
+
+/* for buttons and buttons banner for PerformanceModels.jsp */
+#performancemodelsbuttons {
+	padding: 5px;
+	max-width: 315px;
+	background-color: #E0E0E0;
+	border: #000000 1px solid;
+}
+
+/* for buttons and buttons banner for PerformanceRunner.jsp */
+#performancerunnerbuttons {
+	padding: 5px;
+	max-width: 120px;
+	background-color: #E0E0E0;
+	border: #000000 1px solid;
+}
+
+/* for buttons and buttons banner for PerformanceMonitor.jsp */
+#performancemonitorbuttons {
+	padding: 5px;
+	max-width: 450px;
+	background-color: #E0E0E0;
+	border: #000000 1px solid;
+}
+
+/* for message in results in PerformanceMetrics.jsp */
+#message
+{
+	font-size:20px;
+	color: #8B0000;
+}

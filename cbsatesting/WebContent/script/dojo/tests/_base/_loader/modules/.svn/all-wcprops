@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/_base/_loader/modules
+END
+data.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/_base/_loader/modules/data.js
+END
+anon.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/_base/_loader/modules/anon.js
+END
+factoryArity.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/_base/_loader/modules/factoryArity.js
+END
+full.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/_base/_loader/modules/full.js
+END
+wrapped.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/_base/_loader/modules/wrapped.js
+END

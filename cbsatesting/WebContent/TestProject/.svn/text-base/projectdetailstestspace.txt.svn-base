@@ -1,0 +1,31 @@
+</select>			
+			    </td></tr>
+			    <tr>
+				<td valign="top">Project Description:</td>
+				    <td>
+				      <textarea name="project_description" id="project_description" cols="25" rows="3"></textarea>
+				    </td></tr>
+			       <td valign="top">TestProjectID</td>
+				    <td>
+				      <input name="TestProjectID" id="TestprojectID" type = "text" cols="1" rows="3"></td>
+				    </td></tr>
+				    <td valign="top">TesterID</td>
+				    <td>
+				      <input name="TesterID" id="TesterID" type = "text" cols="1" rows="3"></td>
+				    </td></tr>
+				    <td valign="top">ProjectDate</td>
+				    <td>
+				      <input name="ProjectDate" id="ProjectDate" type = "text" cols="1" rows="3"></td>
+				    </td></tr>
+				    <td valign="top">ProductName</td>
+				    <td>
+				      <input name="ProductName" id="ProductName" type = "text" cols="1" rows="3"></td>
+				    </td></tr>
+				    <td valign="top">ProductVersion</td>
+				    <td>
+				      <input name="ProductVersion" id="ProductVersion" type = "text" cols="1" rows="3"></td>
+				    </td></tr>
+			       <tr><td><input type="submit" name="create_folder" id="create_folder" value="Create Project" /></td><td  align="center" colspan=""	>&nbsp;</td>  
+			         </tr>
+			    
+                        	</table>

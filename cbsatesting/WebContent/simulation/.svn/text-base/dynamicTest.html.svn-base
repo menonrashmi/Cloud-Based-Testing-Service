@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Dynamic Simulation Configuration</title>
+<link rel="stylesheet" type="text/css"
+	href="../script/dijit/themes/claro/claro.css" />
+<link rel="stylesheet" type="text/css" href="../style/main.css" />
+
+<script
+	src="../script/dojo/dojo.js" djConfig="parseOnLoad: true"></script>
+<script src="simulation.js"></script>
+</head>
+<body class="claro">
+	<div id="barDiv2">
+		<p>
+		<h2>JMeter Simulation Progress</h2>
+		<div style="width: 300px; float: left; margin-right: 30px;"
+			dojoType="dijit.ProgressBar" id="testProgress2" maximum="10"></div>
+		</p>
+		<button dojoType="dijit.form.Button" value="Stop" id="stopbtn2"
+			onClick="stopTest">Stop Test</button>
+		<br /> <br />
+
+
+	</div>
+	<script>
+	dojo.addOnLoad(function(){
+    var updateBar2;
+    var updateContent2;
+
+	    var  dataReturn;
+		var i=0;
+	    var con=true;
+	    var area=dojo.byId("barDiv2");
+		console.log(window.location.href);
+		//var interval=dijit.byId("noofthreads").value*dijit.byId("loopcount").value+(dijit.byId("rampupperiod").attr('value').split(' ')[0]*1*60000*dijit.byId("loopcount"));
+
+		dojo.xhrGet({
+			url:"start_jmeter.php?tcase=" +testCase,
+			handleAs:"text",
+			load:function(data){
+				   dataReturn=data;
+			
+		    }
+		});
+	    
+	    updateBar2=setInterval(function(){
+		
+		if (i==101&&dataReturn!==undefined){
+		    
+			 var label=dojo.create("h2",{innerHTML:"Test Results:"});
+			 area.appendChild(label);
+	         var result=dojo.create("div",{innerHTML:dataReturn,id:"jmeterTestResult"}); 
+	         area.appendChild(result);
+	         i++;
+	    }
+		 else if(i<=100)
+		 {dijit.byId("testProgress2").update({
+				
+		        progress: i++,
+		        maximum:100
+			 });}} ,1000);
+});
+	</script>
+</body>
+</html>

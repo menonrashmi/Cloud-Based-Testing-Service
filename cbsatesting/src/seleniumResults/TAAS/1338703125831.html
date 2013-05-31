@@ -1,0 +1,539 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>passed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>11</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>4</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>7</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.21</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.0</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" class="selenium" border="1" cellpadding="1" cellspacing="1"><tbody>
+<tr class="title status_passed"><td><b>Test Suite</b></td></tr>
+<tr class="  status_passed"><td><a href="#testresult0">TS-BB-AE-DT-01</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult1">TS-BB-AE-DT-02</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult2">TS-BB-AE-DT-03</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult3">TS-BB-AE-DT-04</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">AddEmployee%20DecisionTable/TS-BB-AE-DT-01.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">TS-BB-AE-EP-11</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/orangehrm-2.7-rc.1/symfony/web/index.php/auth/login</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=span.form-hint</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtUsername</td>
+	<td>admin</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtPassword</td>
+	<td>287spring2012</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>id=btnLogin</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=a.l2_link.empadd &gt; span</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>rightMenu</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>id=firstName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=firstName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>id=lastName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=lastName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>id=btnSave</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=btnSave</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>css=div.error</td>
+	<td>Required</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div.error</td>
+	<td>Required</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">AddEmployee%20DecisionTable/TS-BB-AE-DT-02.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">TS-BB-AE-EP-11</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/orangehrm-2.7-rc.1/symfony/web/index.php/auth/login</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtUsername</td>
+	<td>admin</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtPassword</td>
+	<td>287spring2012</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>id=btnLogin</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=a.l2_link.empadd &gt; span</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>rightMenu</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>id=firstName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=firstName</td>
+	<td>Sahana</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=btnSave</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>css=div.error</td>
+	<td>Required</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertElementPresent</td>
+	<td>css=div.error</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult2">AddEmployee%20DecisionTable/TS-BB-AE-DT-03.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">TS-BB-AE-EP-01</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/orangehrm-2.7-rc.1/symfony/web/index.php/auth/login</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=span.form-hint</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtUsername</td>
+	<td>admin</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtPassword</td>
+	<td>287spring2012</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>id=btnLogin</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=a.l2_link.empadd &gt; span</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>rightMenu</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>id=chkLoginLbl</td>
+	<td>Create Login Details</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>id=chkLogin</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>User Name*</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Password*</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Status*</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertTextPresent</td>
+	<td>Confirm Password*</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult3">AddEmployee%20DecisionTable/TS-BB-AE-DT-04.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">TS-BB-AE-EP-05</td></tr>
+</thead><tbody>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/orangehrm-2.7-rc.1/symfony/web/index.php/auth/login</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtUsername</td>
+	<td>admin</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=txtPassword</td>
+	<td>287spring2012</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>id=btnLogin</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=a.l2_link.empadd &gt; span</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>rightMenu</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>id=firstName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=firstName</td>
+	<td>Robert</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>id=lastName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=lastName</td>
+	<td>Bush</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForText</td>
+	<td>id=middleName</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=middleName</td>
+	<td>AJ</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>id=employeeId</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>id=btnSave</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=a.l2_link.emplist &gt; span</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>rightMenu</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForElementPresent</td>
+	<td>link=Robert AJ</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>assertElementPresent</td>
+	<td>link=Robert AJ</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>link=Logout</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/AddEmployee%20DecisionTable/TS-BB-AE-DT-01.html
+info: Executing: |open | /orangehrm-2.7-rc.1/symfony/web/index.php/auth/login |  |
+info: Executing: |click | css=span.form-hint |  |
+info: Executing: |type | id=txtUsername | admin |
+info: Executing: |type | id=txtPassword | 287spring2012 |
+info: Executing: |clickAndWait | id=btnLogin |  |
+info: Executing: |click | css=a.l2_link.empadd &gt; span |  |
+info: Executing: |selectFrame | rightMenu |  |
+info: Executing: |waitForText | id=firstName |  |
+info: Executing: |type | id=firstName |  |
+info: Executing: |waitForText | id=lastName |  |
+info: Executing: |type | id=lastName |  |
+info: Executing: |waitForElementPresent | id=btnSave |  |
+info: Executing: |click | id=btnSave |  |
+info: Executing: |waitForText | css=div.error | Required |
+info: Executing: |verifyText | css=div.error | Required |
+info: Executing: |selectFrame | relative=up |  |
+info: Executing: |clickAndWait | link=Logout |  |
+info: Starting test /selenium-server/tests/AddEmployee%20DecisionTable/TS-BB-AE-DT-02.html
+info: Executing: |open | /orangehrm-2.7-rc.1/symfony/web/index.php/auth/login |  |
+info: Executing: |type | id=txtUsername | admin |
+info: Executing: |type | id=txtPassword | 287spring2012 |
+info: Executing: |clickAndWait | id=btnLogin |  |
+info: Executing: |click | css=a.l2_link.empadd &gt; span |  |
+info: Executing: |selectFrame | rightMenu |  |
+info: Executing: |waitForText | id=firstName |  |
+info: Executing: |type | id=firstName | Sahana |
+info: Executing: |click | id=btnSave |  |
+info: Executing: |waitForText | css=div.error | Required |
+info: Executing: |assertElementPresent | css=div.error |  |
+info: Executing: |selectFrame | relative=up |  |
+info: Executing: |clickAndWait | link=Logout |  |
+info: Starting test /selenium-server/tests/AddEmployee%20DecisionTable/TS-BB-AE-DT-03.html
+info: Executing: |open | /orangehrm-2.7-rc.1/symfony/web/index.php/auth/login |  |
+info: Executing: |click | css=span.form-hint |  |
+info: Executing: |type | id=txtUsername | admin |
+info: Executing: |type | id=txtPassword | 287spring2012 |
+info: Executing: |clickAndWait | id=btnLogin |  |
+info: Executing: |click | css=a.l2_link.empadd &gt; span |  |
+info: Executing: |selectFrame | rightMenu |  |
+info: Executing: |waitForText | id=chkLoginLbl | Create Login Details |
+info: Executing: |click | id=chkLogin |  |
+info: Executing: |assertTextPresent | User Name* |  |
+info: Executing: |assertTextPresent | Password* |  |
+info: Executing: |assertTextPresent | Status* |  |
+info: Executing: |assertTextPresent | Confirm Password* |  |
+info: Starting test /selenium-server/tests/AddEmployee%20DecisionTable/TS-BB-AE-DT-04.html
+info: Executing: |open | /orangehrm-2.7-rc.1/symfony/web/index.php/auth/login |  |
+info: Executing: |type | id=txtUsername | admin |
+info: Executing: |type | id=txtPassword | 287spring2012 |
+info: Executing: |clickAndWait | id=btnLogin |  |
+info: Executing: |click | css=a.l2_link.empadd &gt; span |  |
+info: Executing: |selectFrame | rightMenu |  |
+info: Executing: |waitForText | id=firstName |  |
+info: Executing: |type | id=firstName | Robert |
+info: Executing: |waitForText | id=lastName |  |
+info: Executing: |type | id=lastName | Bush |
+info: Executing: |waitForText | id=middleName |  |
+info: Executing: |type | id=middleName | AJ |
+info: Executing: |type | id=employeeId |  |
+info: Executing: |clickAndWait | id=btnSave |  |
+info: Executing: |selectFrame | relative=up |  |
+info: Executing: |click | css=a.l2_link.emplist &gt; span |  |
+info: Executing: |selectFrame | rightMenu |  |
+info: Executing: |waitForElementPresent | link=Robert AJ |  |
+info: Executing: |assertElementPresent | link=Robert AJ |  |
+info: Executing: |selectFrame | relative=up |  |
+info: Executing: |clickAndWait | link=Logout |  |
+</pre></body></html>

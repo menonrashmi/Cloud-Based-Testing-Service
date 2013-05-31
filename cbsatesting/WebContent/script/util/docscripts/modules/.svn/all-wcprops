@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/docscripts/modules
+END
+dojo.module
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/docscripts/modules/dojo.module
+END
+dojox.module.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/docscripts/modules/dojox.module.properties
+END
+dijit.module
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/util/docscripts/modules/dijit.module
+END

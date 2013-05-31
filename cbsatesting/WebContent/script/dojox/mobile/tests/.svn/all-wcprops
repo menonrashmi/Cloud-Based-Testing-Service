@@ -1,0 +1,479 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests
+END
+test_iPhone-ScrollableView-hv-ah-af.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-hv-ah-af.html
+END
+test_iPhone-RoundRect.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-RoundRect.html
+END
+items.json
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/items.json
+END
+test_iPhone-ScrollableView-hv-vh-vf.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-hv-vh-vf.html
+END
+view2.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/view2.html
+END
+test_iPhone-Animation.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-Animation.html
+END
+test_scrollable-no-dojo-ah-af.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_scrollable-no-dojo-ah-af.html
+END
+test_iPhone-ScrollableView-v-vh-af.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-v-vh-af.html
+END
+test_grouped-views.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_grouped-views.html
+END
+test_iPhone-IconSingleBelow.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-IconSingleBelow.html
+END
+test_transition-to-dynamic-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_transition-to-dynamic-view.html
+END
+test_iPhone-EdgeToEdgeCategory.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-EdgeToEdgeCategory.html
+END
+test_iPhone-ScrollableView-v-vh.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-v-vh.html
+END
+test_scrollable-no-dojo-ah.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_scrollable-no-dojo-ah.html
+END
+test_iPhone-TabBar.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-TabBar.html
+END
+test_FixedSplitter-V3.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_FixedSplitter-V3.html
+END
+test_iPhone-EdgeToEdge.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-EdgeToEdge.html
+END
+test_Android-Settings.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-Settings.html
+END
+test_Android-Switch.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-Switch.html
+END
+test_orientation-transition.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_orientation-transition.html
+END
+test_scrollable-no-dojo.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_scrollable-no-dojo.html
+END
+test_Android-ButtonList.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-ButtonList.html
+END
+test_Android-TabContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-TabContainer.html
+END
+test_Android-VariableHeightList.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-VariableHeightList.html
+END
+test_iPhone-TabBar-seg-grouped.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-TabBar-seg-grouped.html
+END
+test_iPhone-Button.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-Button.html
+END
+test_css-sprite.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_css-sprite.html
+END
+test_dynamic-view.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_dynamic-view.html
+END
+view3.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/view3.html
+END
+test_iPhone-ScrollableView-v.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-v.html
+END
+view1.json
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/view1.json
+END
+test_Android-Icon.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-Icon.html
+END
+test_Android-Heading.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-Heading.html
+END
+test_iPhone-Heading.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-Heading.html
+END
+test_Android-RoundRectList.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-RoundRectList.html
+END
+test_grouped-scrollable-views.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_grouped-scrollable-views.html
+END
+test_iPhone-RoundRectList.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-RoundRectList.html
+END
+test_iPhone-IconMulti.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-IconMulti.html
+END
+test_iPhone-TabBar-seg-grouped-scroll.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-TabBar-seg-grouped-scroll.html
+END
+test_iPhone-TabBar-seg.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-TabBar-seg.html
+END
+test_anchor-label.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_anchor-label.html
+END
+test_ajax-json.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_ajax-json.html
+END
+test_iPhone-ResultList.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ResultList.html
+END
+test_dynamic-icons.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_dynamic-icons.html
+END
+test_buttons.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_buttons.html
+END
+view2.json
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/view2.json
+END
+test_dynamic-items.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_dynamic-items.html
+END
+test_iPhone-ScrollableView-hv.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-hv.html
+END
+test_Android-EdgeToEdgeCategory.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-EdgeToEdgeCategory.html
+END
+test_dynamic-ScrollableView-ah-af.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_dynamic-ScrollableView-ah-af.html
+END
+test_iPhone-FlippableView.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-FlippableView.html
+END
+test_Android-TabBar.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-TabBar.html
+END
+test_scrollable-no-dojo-af.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_scrollable-no-dojo-af.html
+END
+test_Android-EdgeToEdge.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_Android-EdgeToEdge.html
+END
+test_iPhone-ScrollableView-v-ah-af.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-v-ah-af.html
+END
+test_iPad-Settings.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPad-Settings.html
+END
+test_progress-indicator.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_progress-indicator.html
+END
+test_iPhone-ScrollableView-demo.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-demo.html
+END
+test_iPhone-Settings.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-Settings.html
+END
+test_iPhone-Switch.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-Switch.html
+END
+test_iPhone-ScrollableView-h.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-h.html
+END
+test_dynamic-ScrollableView-vh-vf.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_dynamic-ScrollableView-vh-vf.html
+END
+test_iPhone-ScrollableView-v-vh-vf.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ScrollableView-v-vh-vf.html
+END
+test_ajax-html.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_ajax-html.html
+END
+test_iPhone-ButtonList.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-ButtonList.html
+END
+test_bookmarkable.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_bookmarkable.html
+END
+test_iPhone-TabContainer.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-TabContainer.html
+END
+view-sample.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/view-sample.html
+END
+test_iPhone-VariableHeightList.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-VariableHeightList.html
+END
+view1.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/view1.html
+END
+test_FixedSplitter-H2.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_FixedSplitter-H2.html
+END
+test_ScrollableMixin-custom.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_ScrollableMixin-custom.html
+END
+test_hash-parameter.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_hash-parameter.html
+END
+test_FixedSplitter-H2-prog.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_FixedSplitter-H2-prog.html
+END
+view3.json
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/view3.json
+END
+test_FixedSplitter-V2H2.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_FixedSplitter-V2H2.html
+END
+test_iPhone-Icon.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-Icon.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/index.html
+END
+test_iPhone-IconSingle.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojox/mobile/tests/test_iPhone-IconSingle.html
+END

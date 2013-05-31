@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="22" lt="0" ts="1334638690336" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-1" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="20" lt="0" ts="1334638690447" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-2" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="86" lt="0" ts="1334638690548" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-3" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="27" lt="0" ts="1334638690666" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-4" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="30" lt="0" ts="1334638690751" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-5" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="16" lt="0" ts="1334638690849" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-6" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="16" lt="0" ts="1334638690949" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-7" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="34" lt="0" ts="1334638691053" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-8" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="52" lt="0" ts="1334638691153" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-9" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+<sample t="24" lt="0" ts="1334638691253" s="true" lb="WebService(SOAP) Request" rc="200" rm="OK" tn="Thread Group 3-10" dt="text" by="533">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</sample>
+
+</testResults>

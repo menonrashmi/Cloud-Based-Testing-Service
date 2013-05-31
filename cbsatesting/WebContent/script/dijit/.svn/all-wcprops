@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit
+END
+MenuBarItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/MenuBarItem.js
+END
+_Container.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_Container.js
+END
+MenuItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/MenuItem.js
+END
+MenuSeparator.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/MenuSeparator.js
+END
+MenuBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/MenuBar.js
+END
+Tooltip.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Tooltip.js
+END
+CheckedMenuItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/CheckedMenuItem.js
+END
+PopupMenuBarItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/PopupMenuBarItem.js
+END
+Dialog.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Dialog.js
+END
+dijit.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/dijit.js
+END
+DialogUnderlay.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/DialogUnderlay.js
+END
+_DialogMixin.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_DialogMixin.js
+END
+Menu.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Menu.js
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/LICENSE
+END
+PopupMenuItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/PopupMenuItem.js
+END
+_Calendar.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_Calendar.js
+END
+dijit-all.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/dijit-all.js
+END
+_base.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_base.js
+END
+Calendar.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Calendar.js
+END
+TooltipDialog.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/TooltipDialog.js
+END
+robotx.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/robotx.js
+END
+_WidgetBase.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_WidgetBase.js
+END
+_Templated.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_Templated.js
+END
+_Widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_Widget.js
+END
+ToolbarSeparator.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/ToolbarSeparator.js
+END
+Declaration.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Declaration.js
+END
+robot.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/robot.js
+END
+TitlePane.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/TitlePane.js
+END
+Editor.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Editor.js
+END
+_HasDropDown.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_HasDropDown.js
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/package.json
+END
+ProgressBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/ProgressBar.js
+END
+_TimePicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_TimePicker.js
+END
+InlineEditBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/InlineEditBox.js
+END
+_CssStateMixin.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_CssStateMixin.js
+END
+ColorPalette.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/ColorPalette.js
+END
+_KeyNavContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_KeyNavContainer.js
+END
+Tree.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Tree.js
+END
+_PaletteMixin.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_PaletteMixin.js
+END
+Toolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/Toolbar.js
+END
+_Contained.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/_Contained.js
+END

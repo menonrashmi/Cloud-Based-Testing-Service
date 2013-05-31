@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form
+END
+test_Textarea.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_Textarea.html
+END
+test_DateTextBox_iframe.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_DateTextBox_iframe.html
+END
+test_Spinner.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_Spinner.html
+END
+test_Select.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_Select.html
+END
+test_Slider.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_Slider.html
+END
+test_validStatePerformance.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_validStatePerformance.html
+END
+TextBox_sizes.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/TextBox_sizes.js
+END
+test_Form_onsubmit.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_Form_onsubmit.html
+END
+test_FilteringSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_FilteringSelect.html
+END
+test_verticalAlign.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_verticalAlign.html
+END
+test_CheckBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_CheckBox.html
+END
+test_SimpleTextarea.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_SimpleTextarea.html
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/runTests.html
+END
+test_validate.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_validate.html
+END
+test_MultiSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_MultiSelect.html
+END
+test_DateTextBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_DateTextBox.html
+END
+DateTextBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/DateTextBox.html
+END
+module.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/module.js
+END
+_autoComplete.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/_autoComplete.html
+END
+test_Form_state.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_Form_state.html
+END
+Form.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/Form.html
+END
+test_ComboBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_ComboBox.html
+END
+test_Button.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_Button.html
+END
+TextBox_sizes.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/TextBox_sizes.html
+END
+test_TimeTextBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dijit/tests/form/test_TimeTextBox.html
+END

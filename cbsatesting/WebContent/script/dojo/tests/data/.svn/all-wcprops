@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data
+END
+ItemFileReadStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/ItemFileReadStore.js
+END
+countries.json
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries.json
+END
+countries_withoutid.json
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries_withoutid.json
+END
+geography_hierarchy_small.json
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/geography_hierarchy_small.json
+END
+countries_commentFiltered.json
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries_commentFiltered.json
+END
+countries_references.json
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries_references.json
+END
+readOnlyItemFileTestTemplates.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/readOnlyItemFileTestTemplates.js
+END
+runTests.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/runTests.html
+END
+data_multitype.json
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/data_multitype.json
+END
+ObjectStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/ObjectStore.js
+END
+countries_withDates.json
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries_withDates.json
+END
+ItemFileWriteStore.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/ItemFileWriteStore.js
+END
+reference_integrity.json
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/reference_integrity.json
+END
+geography_hierarchy_large.json
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/geography_hierarchy_large.json
+END
+countries_withNull.json
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries_withNull.json
+END
+utils.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/utils.js
+END
+countries_idcollision.json
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries_idcollision.json
+END
+countries_withBoolean.json
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/36/trunk/cbsatesting/WebContent/script/dojo/tests/data/countries_withBoolean.json
+END

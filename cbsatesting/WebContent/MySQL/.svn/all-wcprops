@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/211/trunk/cbsatesting/WebContent/MySQL
+END
+Performance.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/203/trunk/cbsatesting/WebContent/MySQL/Performance.sql
+END
+instance.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/134/trunk/cbsatesting/WebContent/MySQL/instance.sql
+END
+jmetertestresult.sql
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/78/trunk/cbsatesting/WebContent/MySQL/jmetertestresult.sql
+END
+TestProject.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/134/trunk/cbsatesting/WebContent/MySQL/TestProject.sql
+END
+UserAccount.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/47/trunk/cbsatesting/WebContent/MySQL/UserAccount.sql
+END
+OIdPerformance.sql
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/134/trunk/cbsatesting/WebContent/MySQL/OIdPerformance.sql
+END
+TestTool.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/143/trunk/cbsatesting/WebContent/MySQL/TestTool.sql
+END
+SeleniumResult.sql
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/78/trunk/cbsatesting/WebContent/MySQL/SeleniumResult.sql
+END
+Scalability.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/211/trunk/cbsatesting/WebContent/MySQL/Scalability.sql
+END

@@ -1,0 +1,337 @@
+10
+
+dir
+225
+http://cbsatesting.googlecode.com/svn/trunk/cbsatesting/WebContent/script/dojo/cldr/nls
+http://cbsatesting.googlecode.com/svn
+
+
+
+2011-10-16T18:23:55.333054Z
+36
+yzonemail@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1ea23115-98fd-4ea5-fbde-5faefb675b85
+
+da
+dir
+
+hebrew.js
+file
+
+
+
+
+2012-01-27T16:06:50.608161Z
+f323206b1386420380aea649ad0eba81
+2011-10-16T18:23:55.333054Z
+36
+yzonemail@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4338
+
+sv
+dir
+
+de
+dir
+
+gregorian.js
+file
+
+
+
+
+2012-01-27T16:06:50.844175Z
+4c877e195b3a31b16c7f2e8bb7b80668
+2011-10-16T18:23:55.333054Z
+36
+yzonemail@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4510
+
+ja
+dir
+
+he
+dir
+
+islamic.js
+file
+
+
+
+
+2012-01-27T16:06:51.126191Z
+7526146c22ce62dbb07e09b35a0dd370
+2011-10-16T18:23:55.333054Z
+36
+yzonemail@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4186
+
+fi
+dir
+
+nb
+dir
+
+fr
+dir
+
+nl
+dir
+
+pl
+dir
+
+th
+dir
+
+hu
+dir
+
+ro
+dir
+
+zh-hk
+dir
+
+zh
+dir
+
+buddhist.js
+file
+
+
+
+
+2012-01-27T16:06:51.376205Z
+cc448667d5aad89b1c3de83f25e2ccf7
+2011-10-16T18:23:55.333054Z
+36
+yzonemail@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3951
+
+ca
+dir
+
+pt
+dir
+
+en-ca
+dir
+
+tr
+dir
+
+ru
+dir
+
+en-gb
+dir
+
+fr-ch
+dir
+
+el
+dir
+
+en
+dir
+
+ar
+dir
+
+number.js
+file
+
+
+
+
+2012-01-27T16:06:51.494212Z
+2ee53c3df0322c2c5e7510254e57b620
+2011-10-16T18:23:55.333054Z
+36
+yzonemail@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1256
+
+pt-pt
+dir
+
+en-au
+dir
+
+cs
+dir
+
+currency.js
+file
+
+
+
+
+2012-01-27T16:06:51.632220Z
+9029b0e346e31abf006e2a6fc479005b
+2011-10-16T18:23:55.333054Z
+36
+yzonemail@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+673
+
+es
+dir
+
+zh-hant
+dir
+
+ko
+dir
+
+zh-tw
+dir
+
+it
+dir
+
+sk
+dir
+
+sl
+dir
+
